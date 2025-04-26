@@ -26,7 +26,7 @@ async function pickBestMove(systemWord) {
 }
 
 async function test() {
-  const res = await pickBestMove("Fire");
+  const res = await pickBestMove("Love");
   console.log("Best move:", res);
 }
 
