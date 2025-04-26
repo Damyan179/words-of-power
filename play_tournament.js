@@ -70,9 +70,10 @@ async function playGame(playerId) {
         }
 
         if (roundId > 1) {
-            const status = await axios.get(statusUrl);
+            const status = await axios.post(statusUrl, { player_id: playerId }, { timeout: 2000 });
             console.log(status.data);
         }
+        
 
         const chosenWordName = smartPick(sysWord);
         const wordId = wordToId[chosenWordName];
@@ -96,13 +97,5 @@ async function playGame(playerId) {
         await new Promise(resolve => setTimeout(resolve, 1000)); 
     }
 }
-
-async function register(playerId) {
-    const payload = { player_id: playerId };
-    const response = await axios.post(registerUrl, payload);
-    console.log(response.data);
-}
-
-// register(playerId)
 
 playGame(playerId);
