@@ -6938,5 +6938,925 @@
     "system_word": "Molecular Implosion",
     "best_player_word": "Singularity Stabilizer",
     "cost": 97
+  },
+  {
+    "system_word": "Seismic Rift",
+    "best_player_word": "Seismic Dampener",
+    "cost": 60
+  },
+  {
+    "system_word": "Molten Core",
+    "best_player_word": "Freeze",
+    "cost": 55
+  },
+  {
+    "system_word": "Magnetic Pulse",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Gravity Surge",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Entropy Field",
+    "best_player_word": "Life Raft",
+    "cost": 30
+  },
+  {
+    "system_word": "Energy Flux",
+    "best_player_word": "Absorption",
+    "cost": 52
+  },
+  {
+    "system_word": "Mana Surge",
+    "best_player_word": "Absorption",
+    "cost": 52
+  },
+  {
+    "system_word": "Void Collapse",
+    "best_player_word": "Reality Resynchronizer",
+    "cost": 92
+  },
+  {
+    "system_word": "Particle Burst",
+    "best_player_word": "Absorption",
+    "cost": 52
+  },
+  {
+    "system_word": "Neutrino Blast",
+    "best_player_word": "Absorption",
+    "cost": 52
+  },
+  {
+    "system_word": "Nebula",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Cosmic Tides",
+    "best_player_word": "Dam",
+    "cost": 35
+  },
+  {
+    "system_word": "Starlight Beam",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Plasma Rain",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Crystal Storm",
+    "best_player_word": "Fire Blanket",
+    "cost": 48
+  },
+  {
+    "system_word": "Diamond Rain",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Corrosive Fog",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Venom Cloud",
+    "best_player_word": "Neutralizing Agent",
+    "cost": 55
+  },
+  {
+    "system_word": "Paralysis Field",
+    "best_player_word": "Robot",
+    "cost": 45
+  },
+  {
+    "system_word": "Static Discharge",
+    "best_player_word": "Absorption",
+    "cost": 52
+  },
+  {
+    "system_word": "Chain Lightning",
+    "best_player_word": "Kevlar Vest",
+    "cost": 38
+  },
+  {
+    "system_word": "Thunderclap",
+    "best_player_word": "Lightning",
+    "cost": 65
+  },
+  {
+    "system_word": "Roaring Gale",
+    "best_player_word": "Boulder",
+    "cost": 20
+  },
+  {
+    "system_word": "Icy Howl",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Frost Wave",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Frozen Maelstrom",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Avalanche Rush",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Subzero Spike",
+    "best_player_word": "Freeze",
+    "cost": 55
+  },
+  {
+    "system_word": "Tundra Break",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Arctic Vortex",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Icicle Lance",
+    "best_player_word": "Fire Blanket",
+    "cost": 48
+  },
+  {
+    "system_word": "Snowstorm Barrage",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Hailstone Cannon",
+    "best_player_word": "Fire Blanket",
+    "cost": 48
+  },
+  {
+    "system_word": "Winter's Wrath",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Frozen Spire",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Crystaline Lance",
+    "best_player_word": "Acid",
+    "cost": 16
+  },
+  {
+    "system_word": "Stone Eruption",
+    "best_player_word": "Drill",
+    "cost": 20
+  },
+  {
+    "system_word": "Rockfall",
+    "best_player_word": "Bulldozer",
+    "cost": 42
+  },
+  {
+    "system_word": "Magma Wave",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Terra Spike",
+    "best_player_word": "Bulldozer",
+    "cost": 42
+  },
+  {
+    "system_word": "Mountain Crumble",
+    "best_player_word": "Seismic Dampener",
+    "cost": 60
+  },
+  {
+    "system_word": "Boulder Charge",
+    "best_player_word": "Drill",
+    "cost": 20
+  },
+  {
+    "system_word": "Tectonic Slam",
+    "best_player_word": "Seismic Dampener",
+    "cost": 60
+  },
+  {
+    "system_word": "Quicksand Pit",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Duststorm",
+    "best_player_word": "Rainstorm",
+    "cost": 58
+  },
+  {
+    "system_word": "Sand Vortex",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Desert Tempest",
+    "best_player_word": "Rainstorm",
+    "cost": 58
+  },
+  {
+    "system_word": "Scorching Sun",
+    "best_player_word": "Rainstorm",
+    "cost": 58
+  },
+  {
+    "system_word": "Ember Gale",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Fire Cyclone",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Infernal Blast",
+    "best_player_word": "Fire Extinguisher",
+    "cost": 50
+  },
+  {
+    "system_word": "Volcanic Fury",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Lava Surge",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Burning Skies",
+    "best_player_word": "Rainstorm",
+    "cost": 58
+  },
+  {
+    "system_word": "Ashen Veil",
+    "best_player_word": "Rainstorm",
+    "cost": 58
+  },
+  {
+    "system_word": "Heat Mirage",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Mirage Blade",
+    "best_player_word": "Sandpaper",
+    "cost": 8
+  },
+  {
+    "system_word": "Cinder Rain",
+    "best_player_word": "Fire Blanket",
+    "cost": 48
+  },
+  {
+    "system_word": "Flame Reaver",
+    "best_player_word": "Fire Extinguisher",
+    "cost": 50
+  },
+  {
+    "system_word": "Solar Collapse",
+    "best_player_word": "Planetary Defense Shield",
+    "cost": 96
+  },
+  {
+    "system_word": "Blazing Rift",
+    "best_player_word": "Fire Extinguisher",
+    "cost": 50
+  },
+  {
+    "system_word": "Wildfire Vortex",
+    "best_player_word": "Rainstorm",
+    "cost": 58
+  },
+  {
+    "system_word": "Combustion Shock",
+    "best_player_word": "Fire Extinguisher",
+    "cost": 50
+  },
+  {
+    "system_word": "Furnace Storm",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Charred Plains",
+    "best_player_word": "Reforestation",
+    "cost": 70
+  },
+  {
+    "system_word": "Pyroclastic Surge",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Obsidian Shards",
+    "best_player_word": "Diamond Cage",
+    "cost": 35
+  },
+  {
+    "system_word": "Eruption Halo",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Smoke Veil",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Smog Shroud",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Poison Breath",
+    "best_player_word": "Neutralizing Agent",
+    "cost": 55
+  },
+  {
+    "system_word": "Venomous Fog",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Blight Wind",
+    "best_player_word": "Fire Blanket",
+    "cost": 48
+  },
+  {
+    "system_word": "Rotting Breeze",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Corruption Bloom",
+    "best_player_word": "Anti-Virus Nanocloud",
+    "cost": 90
+  },
+  {
+    "system_word": "Toxic Spire",
+    "best_player_word": "Neutralizing Agent",
+    "cost": 55
+  },
+  {
+    "system_word": "Fungal Maw",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Sporeburst",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Pestilence Wave",
+    "best_player_word": "Anti-Virus Nanocloud",
+    "cost": 90
+  },
+  {
+    "system_word": "Sickness Cloud",
+    "best_player_word": "Anti-Virus Nanocloud",
+    "cost": 90
+  },
+  {
+    "system_word": "Decay Storm",
+    "best_player_word": "Reforestation",
+    "cost": 70
+  },
+  {
+    "system_word": "Blood Moon",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Crimson Tide",
+    "best_player_word": "Dam",
+    "cost": 35
+  },
+  {
+    "system_word": "Nightfall Howl",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Shadowflame",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Gloom Spike",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Darkstorm",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Specter Wave",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Haunting Winds",
+    "best_player_word": "Gust",
+    "cost": 18
+  },
+  {
+    "system_word": "Soulstorm",
+    "best_player_word": "Therapy",
+    "cost": 48
+  },
+  {
+    "system_word": "Spirit Pulse",
+    "best_player_word": "Therapy",
+    "cost": 48
+  },
+  {
+    "system_word": "Phantom Barrage",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Banshee Cry",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Wraith Strike",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Ghostfire",
+    "best_player_word": "Fire Extinguisher",
+    "cost": 50
+  },
+  {
+    "system_word": "Necrotic Shard",
+    "best_player_word": "Anti-Virus Nanocloud",
+    "cost": 90
+  },
+  {
+    "system_word": "Doom Ray",
+    "best_player_word": "Planetary Defense Shield",
+    "cost": 96
+  },
+  {
+    "system_word": "Cursed Mist",
+    "best_player_word": "Gust",
+    "cost": 18
+  },
+  {
+    "system_word": "Pale Dawn",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Shadefall",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Mindquake",
+    "best_player_word": "Therapy",
+    "cost": 48
+  },
+  {
+    "system_word": "Mental Break",
+    "best_player_word": "Therapy",
+    "cost": 48
+  },
+  {
+    "system_word": "Brainstorm Surge",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Cognitive Collapse",
+    "best_player_word": "Therapy",
+    "cost": 48
+  },
+  {
+    "system_word": "Dream Shatter",
+    "best_player_word": "Therapy",
+    "cost": 48
+  },
+  {
+    "system_word": "Nightmare Rift",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Lucid Distortion",
+    "best_player_word": "Reality Resynchronizer",
+    "cost": 92
+  },
+  {
+    "system_word": "Memory Crash",
+    "best_player_word": "Anti-Virus Nanocloud",
+    "cost": 90
+  },
+  {
+    "system_word": "Vision Eater",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Consciousness Rift",
+    "best_player_word": "Therapy",
+    "cost": 48
+  },
+  {
+    "system_word": "Dream Siphon",
+    "best_player_word": "Therapy",
+    "cost": 48
+  },
+  {
+    "system_word": "Slumber Mist",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Timequake",
+    "best_player_word": "Time",
+    "cost": 100
+  },
+  {
+    "system_word": "Clockwork Erosion",
+    "best_player_word": "Oil",
+    "cost": 10
+  },
+  {
+    "system_word": "Temporal Surge",
+    "best_player_word": "Time",
+    "cost": 100
+  },
+  {
+    "system_word": "Aging Blast",
+    "best_player_word": "Therapy",
+    "cost": 48
+  },
+  {
+    "system_word": "Future Shard",
+    "best_player_word": "Time",
+    "cost": 100
+  },
+  {
+    "system_word": "Past Reflection",
+    "best_player_word": "Therapy",
+    "cost": 48
+  },
+  {
+    "system_word": "Paradox Bloom",
+    "best_player_word": "Time",
+    "cost": 100
+  },
+  {
+    "system_word": "Timeless Rift",
+    "best_player_word": "Time",
+    "cost": 100
+  },
+  {
+    "system_word": "Timeline Distorter",
+    "best_player_word": "Time",
+    "cost": 100
+  },
+  {
+    "system_word": "Eternity Pulse",
+    "best_player_word": "Time",
+    "cost": 100
+  },
+  {
+    "system_word": "Infinity Rift",
+    "best_player_word": "Singularity Stabilizer",
+    "cost": 97
+  },
+  {
+    "system_word": "Portal Storm",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Interspace Collapse",
+    "best_player_word": "Singularity Stabilizer",
+    "cost": 97
+  },
+  {
+    "system_word": "Void Howl",
+    "best_player_word": "Love",
+    "cost": 45
+  },
+  {
+    "system_word": "Spatial Sunder",
+    "best_player_word": "Time",
+    "cost": 100
+  },
+  {
+    "system_word": "Fold Breach",
+    "best_player_word": "Reinforced Steel Door",
+    "cost": 42
+  },
+  {
+    "system_word": "Event Horizon",
+    "best_player_word": "Singularity Stabilizer",
+    "cost": 97
+  },
+  {
+    "system_word": "Black Star",
+    "best_player_word": "Antimatter Cannon",
+    "cost": 95
+  },
+  {
+    "system_word": "Space Storm",
+    "best_player_word": "Lightning",
+    "cost": 65
+  },
+  {
+    "system_word": "Null Wave",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Oblivion Surge",
+    "best_player_word": "Reality Resynchronizer",
+    "cost": 92
+  },
+  {
+    "system_word": "Starcrusher",
+    "best_player_word": "Antimatter Cannon",
+    "cost": 95
+  },
+  {
+    "system_word": "Graviton Strike",
+    "best_player_word": "Singularity Stabilizer",
+    "cost": 97
+  },
+  {
+    "system_word": "Neutron Surge",
+    "best_player_word": "Absorption",
+    "cost": 52
+  },
+  {
+    "system_word": "Quantum Howl",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Relativity Burst",
+    "best_player_word": "Time",
+    "cost": 100
+  },
+  {
+    "system_word": "Singularity Lash",
+    "best_player_word": "AI Kill Switch",
+    "cost": 90
+  },
+  {
+    "system_word": "Mass Driver",
+    "best_player_word": "Seismic Dampener",
+    "cost": 60
+  },
+  {
+    "system_word": "Solar Piercer",
+    "best_player_word": "Seismic Dampener",
+    "cost": 60
+  },
+  {
+    "system_word": "Galactic Drift",
+    "best_player_word": "Singularity Stabilizer",
+    "cost": 97
+  },
+  {
+    "system_word": "Celestial Wave",
+    "best_player_word": "Dam",
+    "cost": 35
+  },
+  {
+    "system_word": "Eclipse Pulse",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Planetfall",
+    "best_player_word": "Antimatter Cannon",
+    "cost": 95
+  },
+  {
+    "system_word": "Meteor Barrage",
+    "best_player_word": "Planetary Defense Shield",
+    "cost": 96
+  },
+  {
+    "system_word": "Asteroid Rain",
+    "best_player_word": "Planetary Defense Shield",
+    "cost": 96
+  },
+  {
+    "system_word": "Comet Blade",
+    "best_player_word": "Diamond Cage",
+    "cost": 35
+  },
+  {
+    "system_word": "Void Rain",
+    "best_player_word": "Dam",
+    "cost": 35
+  },
+  {
+    "system_word": "Stardust Surge",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Nova Lance",
+    "best_player_word": "Neutralizing Agent",
+    "cost": 55
+  },
+  {
+    "system_word": "Starfall Shards",
+    "best_player_word": "Planetary Defense Shield",
+    "cost": 96
+  },
+  {
+    "system_word": "Night Sky Flare",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Milky Veil",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Cosmic Bloom",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Supervoid",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Astroburst",
+    "best_player_word": "Singularity Stabilizer",
+    "cost": 97
+  },
+  {
+    "system_word": "Photon Ray",
+    "best_player_word": "Absorption",
+    "cost": 52
+  },
+  {
+    "system_word": "Light Prism",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Luminous Blade",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Radiant Surge",
+    "best_player_word": "Absorption",
+    "cost": 52
+  },
+  {
+    "system_word": "Glowstorm",
+    "best_player_word": "Rainstorm",
+    "cost": 58
+  },
+  {
+    "system_word": "Solar Prism",
+    "best_player_word": "Rainstorm",
+    "cost": 58
+  },
+  {
+    "system_word": "Aurora Blast",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Twilight Gale",
+    "best_player_word": "Gust",
+    "cost": 18
+  },
+  {
+    "system_word": "Dawn Surge",
+    "best_player_word": "Kevlar Vest",
+    "cost": 38
+  },
+  {
+    "system_word": "Sunbeam Strike",
+    "best_player_word": "Fire Blanket",
+    "cost": 48
+  },
+  {
+    "system_word": "Moonlight Rift",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Nebula Mist",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Celestial River",
+    "best_player_word": "Dam",
+    "cost": 35
+  },
+  {
+    "system_word": "Wormhole Crash",
+    "best_player_word": "Singularity Stabilizer",
+    "cost": 97
+  },
+  {
+    "system_word": "Space-Tear",
+    "best_player_word": "Singularity Stabilizer",
+    "cost": 97
+  },
+  {
+    "system_word": "Dimension Hammer",
+    "best_player_word": "Singularity Stabilizer",
+    "cost": 97
+  },
+  {
+    "system_word": "Aether Blast",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Hypernova",
+    "best_player_word": "Singularity Stabilizer",
+    "cost": 97
+  },
+  {
+    "system_word": "White Hole",
+    "best_player_word": "Antimatter Cannon",
+    "cost": 95
+  },
+  {
+    "system_word": "Spacefold",
+    "best_player_word": "Singularity Stabilizer",
+    "cost": 97
+  },
+  {
+    "system_word": "Void Prism",
+    "best_player_word": "Reality Resynchronizer",
+    "cost": 92
+  },
+  {
+    "system_word": "Nebula Collapse",
+    "best_player_word": "Singularity Stabilizer",
+    "cost": 97
+  },
+  {
+    "system_word": "Stellar Lock",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Lunar Collapse",
+    "best_player_word": "Terraforming Device",
+    "cost": 89
+  },
+  {
+    "system_word": "Starcore Eruption",
+    "best_player_word": "Cataclysm Containment Field",
+    "cost": 92
+  },
+  {
+    "system_word": "Gravitic Tides",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Dark Gravity Well",
+    "best_player_word": "Singularity Stabilizer",
+    "cost": 97
   }
 ]
