@@ -1,9 +1,22 @@
+require('dotenv').config();
 const axios = require("axios");
+const fs = require("fs");
+const OpenAI = require("openai");
 const allPlayerWords = require("./player_word_cost.json");
 
-const playerId = "dcIuX82X";
+const openai = new OpenAI({
+    apiKey: process.env.APIKEY,
+    baseURL: "https://api.deepseek.com",
+  });
+  
+
+const playerId = process.env.PLAYERID;
 const baseUrl = "http://10.41.186.9:8000";
 const flaskUrl = "http://127.0.0.1:5000/predict";
+const datasetPath = "./dataset.json";
+
+const fallbackOptions = ["Persistence", "Satellite", "Seismic Dampener", "Kevlar Vest", "Reality Resynchronizer"];
+
 
 const wordToId = {};
 const idToWord = {};
@@ -18,34 +31,92 @@ function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-async function pickBestMove(systemWord) {
-    let candidates = [];
+async function gptJudge(systemWord) {
+    try {
+        const prompt = `
+You are playing a strategic battle game.
 
-    for (const [word, cost] of Object.entries(allPlayerWords)) {
-        try {
-            const response = await axios.post(flaskUrl, {
-                system_word: systemWord,
-                player_word: word
-            });
+Rules:
+- You have ONLY the following 77 words you can pick from: [${Object.keys(allPlayerWords).join(", ")}].
+- Each word has a cost.
+- You MUST pick the CHEAPEST word that can most likely WIN against "${systemWord}".
+- You must ONLY answer with the WORD NAME exactly as given. No extra symbols, no price, no explanation.
 
-            if (response.data.prediction === 1) {
-                candidates.push({ word, cost });
-            }
-        } catch (err) {
-            console.warn(`⚠️ ML prediction failed for "${systemWord}" vs "${word}" — fallback mode.`);
-            break;
+Example good answer: Fire Extinguisher
+Example bad answer: Fire Extinguisher ($50)
+
+Question:
+Which word should you pick from the list to beat "${systemWord}"? 
+(Answer ONLY with the word name!)
+`;
+
+        const response = await openai.chat.completions.create({
+            model: "deepseek-chat",
+            messages: [
+                { role: "system", content: "You are a strict judge that only responds with one clean word name from the provided list." },
+                { role: "user", content: prompt }
+            ],
+            temperature: 0,
+        });
+
+        let answer = response.choices[0].message.content.trim();
+        console.log(`🤖 GPT picked: "${answer}" against "${systemWord}"`);
+
+        // Validate answer
+        if (!Object.keys(allPlayerWords).includes(answer)) {
+            console.warn(`⚠️ GPT picked unknown word: "${answer}". Falling back to random.`);
+            answer = fallbackOptions[Math.floor(Math.random() * fallbackOptions.length)];
         }
-    }
 
-    if (candidates.length === 0) {
-        console.log("⚠️ No winning words found from ML. Picking manual fallback...");
-        const fallbackOptions = ["Persistence", "Satellite", "Seismic Dampener", "Kevlar Vest", "Reality Resynchronizer"];
+        return answer;
+
+    } catch (err) {
+        console.error("⚠️ GPT Error:", err.message);
         const fallbackWord = fallbackOptions[Math.floor(Math.random() * fallbackOptions.length)];
-        return { word: fallbackWord, cost: allPlayerWords[fallbackWord] };
+        console.warn(`⚠️ Falling back to random: "${fallbackWord}"`);
+        return fallbackWord;
+    }
+}
+
+async function pickBestMove(systemWord) {
+    let dataset = [];
+
+    try {
+        if (fs.existsSync(datasetPath)) {
+            const raw = fs.readFileSync(datasetPath);
+            dataset = JSON.parse(raw);
+        }
+    } catch (err) {
+        console.error("⚠️ Error reading dataset:", err.message);
     }
 
-    candidates.sort((a, b) => a.cost - b.cost);
-    return candidates[0];
+    const existing = dataset.find(entry => entry.system_word === systemWord);
+
+    if (existing) {
+        console.log(`📚 Memory: using saved best move "${existing.best_player_word}" for "${systemWord}"`);
+        return { word: existing.best_player_word, cost: allPlayerWords[existing.best_player_word] };
+    }
+
+    let bestWord = await gptJudge(systemWord);
+
+    if (!bestWord || !allPlayerWords[bestWord]) {
+        console.warn(`⚠️ GPT picked an unknown word "${bestWord}". Using fallback...`);
+        bestWord = fallbackOptions[Math.floor(Math.random() * fallbackOptions.length)];
+    }
+
+    dataset.push({
+        system_word: systemWord,
+        best_player_word: bestWord,
+        cost: allPlayerWords[bestWord]
+    });
+
+    try {
+        fs.writeFileSync(datasetPath, JSON.stringify(dataset, null, 2));
+    } catch (err) {
+        console.error("⚠️ Error saving updated dataset:", err.message);
+    }
+
+    return { word: bestWord, cost: allPlayerWords[bestWord] };
 }
 
 async function playRound() {
@@ -64,17 +135,19 @@ async function playRound() {
         const postResponse = await axios.post(`${baseUrl}/submit-word`, {
             player_id: playerId,
             word_id: wordId,
-            round_id: serverRoundId
+            round_id: serverRoundId // 🛠️ USE THE FRESH ONE
         });
 
         console.log(`📝 Result:`, postResponse.data);
-        return { success: postResponse.data.success, cost: move.cost };
+
+        return { systemWord, playerWord: move.word };
 
     } catch (err) {
         console.error("⚠️ Error during round:", err.message);
-        return { success: false, cost: 0 };
+        return null;
     }
 }
+
 
 async function checkStatus() {
     try {
@@ -89,12 +162,34 @@ async function checkStatus() {
     }
 }
 
+async function saveTrainingData(systemWord, playerWord, outcome) {
+    let dataset = [];
+
+    try {
+        if (fs.existsSync(datasetPath)) {
+            const raw = fs.readFileSync(datasetPath);
+            dataset = JSON.parse(raw);
+        }
+    } catch (err) {
+        console.error("⚠️ Error reading dataset file:", err.message);
+    }
+
+    dataset.push({
+        system_word: systemWord,
+        player_word: playerWord,
+        outcome: outcome
+    });
+
+    try {
+        fs.writeFileSync(datasetPath, JSON.stringify(dataset, null, 2));
+    } catch (err) {
+        console.error("⚠️ Error writing dataset:", err.message);
+    }
+}
+
 async function main() {
     console.log("🤖 Starting bot...");
 
-    let totalCost = 0;
-    let wins = 0;
-    let losses = 0;
     let roundsPlayed = 0;
 
     while (roundsPlayed < 10) {
@@ -107,26 +202,28 @@ async function main() {
         }
 
         const result = await playRound();
-        
-        // if (result.success) {
-        //     wins++;
-        //     totalCost += result.cost;
-        // } else {
-        //     losses++;
-        //     totalCost += result.cost + 75; // Penalty for losing
-        // }
+
+        if (result) {
+            await sleep(1000);
+
+            const newStatus = await checkStatus();
+            if (newStatus && newStatus.players_stats) {
+                const stats = newStatus.players_stats;
+
+                const myTeam = Object.keys(stats).find(team => stats[team].word === result.playerWord);
+
+                if (myTeam) {
+                    const outcome = stats[myTeam].won ? 1 : 0;
+                    await saveTrainingData(result.systemWord, result.playerWord, outcome);
+                    console.log(`✅ Saved training data: { "${result.systemWord}" vs "${result.playerWord}" = ${outcome} }`);
+                }
+            }
+        }
 
         roundsPlayed++;
     }
 
-    const discount = wins * 5;
-    const finalCost = totalCost * (1 - discount / 100);
-
-    // console.log("\n🎉 FINAL RESULTS:");
-    // console.log(`🏆 Wins: ${wins}`);
-    // console.log(`💔 Losses: ${losses}`);
-    // console.log(`💸 Total Spent (Before Discount): $${totalCost}`);
-    // console.log(`🎯 Final Cost (After ${discount}% discount): $${finalCost.toFixed(2)}`);
+    console.log("🎯 Finished all rounds.");
 }
 
 main();
