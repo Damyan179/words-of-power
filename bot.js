@@ -95,7 +95,7 @@ async function pickBestMove(systemWord) {
     if (existing) {
         console.log(`📚 Memory: using saved best move "${existing.best_player_word}" for "${systemWord}"`);
         return { word: existing.best_player_word, cost: allPlayerWords[existing.best_player_word] };
-    }
+    }    
 
     let bestWord = await gptJudge(systemWord);
 
@@ -177,7 +177,8 @@ async function saveTrainingData(systemWord, playerWord, outcome) {
     dataset.push({
         system_word: systemWord,
         player_word: playerWord,
-        outcome: outcome
+        outcome: outcome,
+        cost: allPlayerWords[playerWord]
     });
 
     try {
@@ -190,16 +191,28 @@ async function saveTrainingData(systemWord, playerWord, outcome) {
 async function main() {
     console.log("🤖 Starting bot...");
 
-    let roundsPlayed = 0;
+    let lastRoundId = -1;
 
-    while (roundsPlayed < 10) {
+    while (true) {
         await sleep(500);
 
         const status = await checkStatus();
-        if (status && status.game_over) {
+        if (!status) continue;
+
+        if (status.game_over) {
             console.log("🏁 Game Over detected from server.");
-            break;
+            console.log("🔄 Restarting bot to keep training...");
+            await sleep(2000); // wait 3 seconds
+            lastRoundId = -1;
+            continue;
         }
+
+        if (status.round === lastRoundId) {
+            console.log(`⏳ Waiting for next round... (still round ${status.round})`);
+            continue;
+        }
+
+        lastRoundId = status.round;
 
         const result = await playRound();
 
@@ -209,7 +222,6 @@ async function main() {
             const newStatus = await checkStatus();
             if (newStatus && newStatus.players_stats) {
                 const stats = newStatus.players_stats;
-
                 const myTeam = Object.keys(stats).find(team => stats[team].word === result.playerWord);
 
                 if (myTeam) {
@@ -219,11 +231,9 @@ async function main() {
                 }
             }
         }
-
-        roundsPlayed++;
     }
-
-    console.log("🎯 Finished all rounds.");
 }
+
+
 
 main();

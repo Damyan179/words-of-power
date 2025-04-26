@@ -1,9 +1,10 @@
 const { exec } = require("child_process");
 const fs = require("fs");
+const path = require("path");
 
-const datasetPath = "./dataset.json";
-const CHECK_INTERVAL_MS = 60000; // Check every 60 seconds
-const BATTLES_THRESHOLD = 50; // Retrain after 50 new battles
+const datasetPath = path.join(__dirname, "../dataset.json"); // go UP one level to dataset
+const CHECK_INTERVAL_MS = 60000; 
+const BATTLES_THRESHOLD = 50;
 
 let lastBattleCount = 0;
 
@@ -18,7 +19,8 @@ function getBattleCount() {
 function retrainModel() {
     console.log(`🧠 Retraining model... Current battles: ${getBattleCount()}`);
 
-    exec("python pyml/train_from_dataset.py", (error, stdout, stderr) => {
+    // Now relative path is just "train_from_dataset.py"
+    exec("py train_from_dataset.py", (error, stdout, stderr) => {
         if (error) {
             console.error(`❌ Error retraining: ${error.message}`);
             return;
