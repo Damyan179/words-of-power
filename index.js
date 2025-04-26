@@ -1,14 +1,17 @@
 const axios = require('axios');
 
-axios.get('https://icanhazdadjoke.com/', {
-  headers: {
-    'Accept': 'application/json'
-  }
-})
-.then((response) => {
-  console.log('Here is a random dad joke:');
-  console.log(response.data.joke);
-})
-.catch((error) => {
-  console.error('Error fetching joke:', error.message);
-});
+async function testPrediction() {
+    try {
+        const response = await axios.post('http://127.0.0.1:5000/predict', {
+            system_word: "Tsunami",
+            player_word: "Drought"
+        });
+        console.log("Sending system_word as Tsunami and player_word as Drought")
+        
+        console.log("Prediction result:", response.data);
+    } catch (error) {
+        console.error("Error calling the Flask API:", error.message);
+    }
+}
+
+testPrediction();
