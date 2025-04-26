@@ -1,17 +1,33 @@
-const axios = require('axios');
+const axios = require("axios");
+const allPlayerWords = require("./player_word_cost.json");
 
-async function testPrediction() {
-    try {
-        const response = await axios.post('http://127.0.0.1:5000/predict', {
-            system_word: "Tsunami",
-            player_word: "Drought"
-        });
-        console.log("Sending system_word as Tsunami and player_word as Drought")
-        
-        console.log("Prediction result:", response.data);
-    } catch (error) {
-        console.error("Error calling the Flask API:", error.message);
+async function pickBestMove(systemWord) {
+  let candidates = [];
+
+  for (const [word, cost] of Object.entries(allPlayerWords)) {
+    const response = await axios.post('http://127.0.0.1:5000/predict', {
+      system_word: systemWord,
+      player_word: word
+    });
+
+    if (response.data.prediction === 1) {
+      candidates.push({ word, cost });
     }
+  }
+
+  if (candidates.length === 0) {
+    console.log("⚠️ No winning words found, picking cheapest random word...");
+    const randomWord = Object.entries(allPlayerWords)[Math.floor(Math.random() * Object.keys(allPlayerWords).length)];
+    return { word: randomWord[0], cost: randomWord[1] };
+  }
+
+  candidates.sort((a, b) => a.cost - b.cost);
+  return candidates[0];
 }
 
-testPrediction();
+async function test() {
+  const res = await pickBestMove("Fire");
+  console.log("Best move:", res);
+}
+
+test();

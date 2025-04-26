@@ -1,15 +1,12 @@
 from flask import Flask, request, jsonify
 import joblib
 
-# 1. Load trained model and encoders
 model = joblib.load('model.pkl')
 system_encoder = joblib.load('system_encoder.pkl')
 player_encoder = joblib.load('player_encoder.pkl')
 
-# 2. Create Flask app
 app = Flask(__name__)
 
-# 3. Define a route for predictions
 @app.route('/predict', methods=['POST'])
 def predict():
     data = request.get_json()
