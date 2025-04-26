@@ -1,28 +1,4512 @@
 [
   {
-    "system_word": "Collapse of Civilization",
-    "best_player_word": "Resilience"
+    "system_word": "Toothpick",
+    "best_player_word": "Sandpaper",
+    "cost": 8
+  },
+  {
+    "system_word": "Squirrel",
+    "best_player_word": "Bear Trap",
+    "cost": 32
+  },
+  {
+    "system_word": "Squirrel",
+    "player_word": "Bear Trap",
+    "outcome": 0,
+    "cost": 32
+  },
+  {
+    "system_word": "Helicopter",
+    "best_player_word": "Lightning",
+    "cost": 65
+  },
+  {
+    "system_word": "Lantern",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Balloon",
+    "best_player_word": "Persistence",
+    "cost": 80
+  },
+  {
+    "system_word": "Balloon",
+    "player_word": "Persistence",
+    "outcome": 0,
+    "cost": 80
+  },
+  {
+    "system_word": "Balloon",
+    "player_word": "Persistence",
+    "outcome": 0,
+    "cost": 80
   },
   {
     "system_word": "Matches",
-    "best_player_word": "Fire Extinguisher"
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Matches",
+    "player_word": "Water",
+    "outcome": 0,
+    "cost": 25
+  },
+  {
+    "system_word": "Drum",
+    "best_player_word": "Sonic Boom",
+    "cost": 45
+  },
+  {
+    "system_word": "Drum",
+    "player_word": "Sonic Boom",
+    "outcome": 1,
+    "cost": 45
+  },
+  {
+    "system_word": "Acorn",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Windmill",
+    "best_player_word": "Gust",
+    "cost": 18
+  },
+  {
+    "system_word": "Flame Thrower",
+    "best_player_word": "Fire Extinguisher",
+    "cost": 50
+  },
+  {
+    "system_word": "Flame Thrower",
+    "player_word": "Fire Extinguisher",
+    "outcome": 0,
+    "cost": 50
+  },
+  {
+    "system_word": "Snowflake",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "",
+    "best_player_word": "Sandpaper",
+    "cost": 8
+  },
+  {
+    "system_word": "Helmet",
+    "best_player_word": "Drill",
+    "cost": 20
+  },
+  {
+    "system_word": "Watchtower",
+    "best_player_word": "Bulldozer",
+    "cost": 42
+  },
+  {
+    "system_word": "Watchtower",
+    "player_word": "Bulldozer",
+    "outcome": 1,
+    "cost": 42
   },
   {
     "system_word": "Leaf Blower",
-    "best_player_word": "Gust"
+    "best_player_word": "Gust",
+    "cost": 18
   },
   {
     "system_word": "Leaf Blower",
     "player_word": "Gust",
-    "outcome": 0
+    "outcome": 1,
+    "cost": 18
   },
   {
-    "system_word": "Leaf Blower",
-    "player_word": "Gust",
-    "outcome": 0
+    "system_word": "Scissors",
+    "best_player_word": "Boulder",
+    "cost": 20
+  },
+  {
+    "system_word": "Scissors",
+    "player_word": "Boulder",
+    "outcome": 1,
+    "cost": 20
+  },
+  {
+    "system_word": "Rain",
+    "best_player_word": "Drought",
+    "cost": 24
+  },
+  {
+    "system_word": "Rain",
+    "player_word": "Drought",
+    "outcome": 1,
+    "cost": 24
+  },
+  {
+    "system_word": "Watchtower",
+    "player_word": "Bulldozer",
+    "outcome": 1,
+    "cost": 42
+  },
+  {
+    "system_word": "Shovel",
+    "best_player_word": "Acid",
+    "cost": 16
+  },
+  {
+    "system_word": "Bucket",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Bucket",
+    "player_word": "Water",
+    "outcome": 1,
+    "cost": 25
+  },
+  {
+    "system_word": "Mud",
+    "best_player_word": "Drought",
+    "cost": 24
+  },
+  {
+    "system_word": "Snake",
+    "best_player_word": "Bear Trap",
+    "cost": 32
+  },
+  {
+    "system_word": "Ice Cube",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Ice Cube",
+    "player_word": "Fire",
+    "outcome": 1,
+    "cost": 22
+  },
+  {
+    "system_word": "Tornado Siren",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Tornado Siren",
+    "player_word": "Signal Jammer",
+    "outcome": 1,
+    "cost": 40
+  },
+  {
+    "system_word": "Fur",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Fur",
+    "player_word": "Fire",
+    "outcome": 0,
+    "cost": 22
+  },
+  {
+    "system_word": "Scissors",
+    "player_word": "Boulder",
+    "outcome": 0,
+    "cost": 20
+  },
+  {
+    "system_word": "Snake",
+    "player_word": "Bear Trap",
+    "outcome": 0,
+    "cost": 32
+  },
+  {
+    "system_word": "Puddle",
+    "best_player_word": "Drought",
+    "cost": 24
+  },
+  {
+    "system_word": "Matches",
+    "player_word": "Water",
+    "outcome": 1,
+    "cost": 25
+  },
+  {
+    "system_word": "Riot Shield",
+    "best_player_word": "Molotov Cocktail",
+    "cost": 58
+  },
+  {
+    "system_word": "Warzone",
+    "best_player_word": "Kevlar Vest",
+    "cost": 38
+  },
+  {
+    "system_word": "Matches",
+    "player_word": "Water",
+    "outcome": 0,
+    "cost": 25
+  },
+  {
+    "system_word": "Squirrel",
+    "player_word": "Bear Trap",
+    "outcome": 0,
+    "cost": 32
+  },
+  {
+    "system_word": "Ice Cube",
+    "player_word": "Fire",
+    "outcome": 0,
+    "cost": 22
+  },
+  {
+    "system_word": "Shovel",
+    "player_word": "Acid",
+    "outcome": 1,
+    "cost": 16
+  },
+  {
+    "system_word": "Button",
+    "best_player_word": "Drill",
+    "cost": 20
   },
   {
     "system_word": "Heavy Machinery",
-    "best_player_word": "Acid"
+    "best_player_word": "Acid",
+    "cost": 16
+  },
+  {
+    "system_word": "Fighter Jet",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Leaf Blower",
+    "player_word": "Gust",
+    "outcome": 1,
+    "cost": 18
+  },
+  {
+    "system_word": "Supervolcano",
+    "best_player_word": "Reforestation",
+    "cost": 70
+  },
+  {
+    "system_word": "Supervolcano",
+    "player_word": "Reforestation",
+    "outcome": 1,
+    "cost": 70
+  },
+  {
+    "system_word": "Scissors",
+    "player_word": "Boulder",
+    "outcome": 0,
+    "cost": 20
+  },
+  {
+    "system_word": "Ant",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Bee",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Bee",
+    "player_word": "Fire",
+    "outcome": 1,
+    "cost": 22
+  },
+  {
+    "system_word": "Bucket",
+    "player_word": "Water",
+    "outcome": 0,
+    "cost": 25
+  },
+  {
+    "system_word": "Bucket",
+    "player_word": "Water",
+    "outcome": 0,
+    "cost": 25
+  },
+  {
+    "system_word": "Planetary Drought",
+    "best_player_word": "Rainstorm",
+    "cost": 58
+  },
+  {
+    "system_word": "Fighter Jet",
+    "player_word": "Signal Jammer",
+    "outcome": 1,
+    "cost": 40
+  },
+  {
+    "system_word": "Lantern",
+    "player_word": "Water",
+    "outcome": 1,
+    "cost": 25
+  },
+  {
+    "system_word": "Collapse of Civilization",
+    "best_player_word": "Resilience",
+    "cost": 85
+  },
+  {
+    "system_word": "Shovel",
+    "player_word": "Acid",
+    "outcome": 1,
+    "cost": 16
+  },
+  {
+    "system_word": "Planetary Drought",
+    "player_word": "Rainstorm",
+    "outcome": 0,
+    "cost": 58
+  },
+  {
+    "system_word": "Matchstick",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Matchstick",
+    "player_word": "Water",
+    "outcome": 1,
+    "cost": 25
+  },
+  {
+    "system_word": "Mirror",
+    "best_player_word": "Dynamite",
+    "cost": 60
+  },
+  {
+    "system_word": "Scissors",
+    "player_word": "Boulder",
+    "outcome": 0,
+    "cost": 20
+  },
+  {
+    "system_word": "Drum",
+    "player_word": "Sonic Boom",
+    "outcome": 1,
+    "cost": 45
+  },
+  {
+    "system_word": "Crayon",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Supervolcano",
+    "player_word": "Reforestation",
+    "outcome": 0,
+    "cost": 70
+  },
+  {
+    "system_word": "Heavy Machinery",
+    "player_word": "Acid",
+    "outcome": 1,
+    "cost": 16
+  },
+  {
+    "system_word": "Smoke",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Smoke",
+    "player_word": "Vacuum",
+    "outcome": 1,
+    "cost": 27
+  },
+  {
+    "system_word": "Evil SuperIntelligent AI",
+    "best_player_word": "AI Kill Switch",
+    "cost": 90
+  },
+  {
+    "system_word": "Power Line",
+    "best_player_word": "Lightning",
+    "cost": 65
+  },
+  {
+    "system_word": "Riot Shield",
+    "player_word": "Molotov Cocktail",
+    "outcome": 0,
+    "cost": 58
+  },
+  {
+    "system_word": "Scissors",
+    "player_word": "Boulder",
+    "outcome": 1,
+    "cost": 20
+  },
+  {
+    "system_word": "Firewood",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Firewood",
+    "player_word": "Water",
+    "outcome": 0,
+    "cost": 25
+  },
+  {
+    "system_word": "Riot Shield",
+    "player_word": "Molotov Cocktail",
+    "outcome": 1,
+    "cost": 58
+  },
+  {
+    "system_word": "Bucket",
+    "player_word": "Water",
+    "outcome": 0,
+    "cost": 25
+  },
+  {
+    "system_word": "Nest",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Shovel",
+    "player_word": "Acid",
+    "outcome": 1,
+    "cost": 16
+  },
+  {
+    "system_word": "Candle",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Hammer",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Hammer",
+    "player_word": "Vacuum",
+    "outcome": 0,
+    "cost": 27
+  },
+  {
+    "system_word": "Snake",
+    "player_word": "Bear Trap",
+    "outcome": 1,
+    "cost": 32
+  },
+  {
+    "system_word": "Spider",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Crayon",
+    "player_word": "Fire",
+    "outcome": 1,
+    "cost": 22
+  },
+  {
+    "system_word": "Fur",
+    "player_word": "Fire",
+    "outcome": 0,
+    "cost": 22
+  },
+  {
+    "system_word": "Nest",
+    "player_word": "Fire",
+    "outcome": 0,
+    "cost": 22
+  },
+  {
+    "system_word": "Toothpick",
+    "player_word": "Sandpaper",
+    "outcome": 1,
+    "cost": 8
+  },
+  {
+    "system_word": "Stick",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Hammer",
+    "player_word": "Vacuum",
+    "outcome": 0,
+    "cost": 27
+  },
+  {
+    "system_word": "Squirrel",
+    "player_word": "Bear Trap",
+    "outcome": 0,
+    "cost": 32
+  },
+  {
+    "system_word": "Power Line",
+    "player_word": "Lightning",
+    "outcome": 1,
+    "cost": 65
+  },
+  {
+    "system_word": "Snowflake",
+    "player_word": "Sunshine",
+    "outcome": 1,
+    "cost": 35
+  },
+  {
+    "system_word": "Hammer",
+    "player_word": "Vacuum",
+    "outcome": 1,
+    "cost": 27
+  },
+  {
+    "system_word": "Heavy Machinery",
+    "player_word": "Acid",
+    "outcome": 0,
+    "cost": 16
+  },
+  {
+    "system_word": "Heavy Machinery",
+    "player_word": "Acid",
+    "outcome": 0,
+    "cost": 16
+  },
+  {
+    "system_word": "Fur",
+    "player_word": "Fire",
+    "outcome": 1,
+    "cost": 22
+  },
+  {
+    "system_word": "Leaf Blower",
+    "player_word": "Gust",
+    "outcome": 0,
+    "cost": 18
+  },
+  {
+    "system_word": "Hammer",
+    "player_word": "Vacuum",
+    "outcome": 1,
+    "cost": 27
+  },
+  {
+    "system_word": "Watchtower",
+    "player_word": "Bulldozer",
+    "outcome": 0,
+    "cost": 42
+  },
+  {
+    "system_word": "Axe",
+    "best_player_word": "Reinforced Steel Door",
+    "cost": 42
+  },
+  {
+    "system_word": "Riot Shield",
+    "player_word": "Molotov Cocktail",
+    "outcome": 1,
+    "cost": 58
+  },
+  {
+    "system_word": "Rain",
+    "player_word": "Drought",
+    "outcome": 0,
+    "cost": 24
+  },
+  {
+    "system_word": "Crayon",
+    "player_word": "Fire",
+    "outcome": 1,
+    "cost": 22
+  },
+  {
+    "system_word": "Plastic Bag",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Hammer",
+    "player_word": "Vacuum",
+    "outcome": 1,
+    "cost": 27
+  },
+  {
+    "system_word": "Scissors",
+    "player_word": "Boulder",
+    "outcome": 1,
+    "cost": 20
+  },
+  {
+    "system_word": "Balloon",
+    "player_word": "Persistence",
+    "outcome": 1,
+    "cost": 80
+  },
+  {
+    "system_word": "Rain",
+    "player_word": "Drought",
+    "outcome": 1,
+    "cost": 24
+  },
+  {
+    "system_word": "Flame Thrower",
+    "player_word": "Fire Extinguisher",
+    "outcome": 0,
+    "cost": 50
+  },
+  {
+    "system_word": "Riot Shield",
+    "player_word": "Molotov Cocktail",
+    "outcome": 0,
+    "cost": 58
+  },
+  {
+    "system_word": "Heavy Machinery",
+    "player_word": "Acid",
+    "outcome": 1,
+    "cost": 16
+  },
+  {
+    "system_word": "Smoke",
+    "player_word": "Vacuum",
+    "outcome": 0,
+    "cost": 27
+  },
+  {
+    "system_word": "Ant",
+    "player_word": "Fire",
+    "outcome": 1,
+    "cost": 22
+  },
+  {
+    "system_word": "Balloon",
+    "player_word": "Persistence",
+    "outcome": 0,
+    "cost": 80
+  },
+  {
+    "system_word": "Rain",
+    "player_word": "Drought",
+    "outcome": 1,
+    "cost": 24
+  },
+  {
+    "system_word": "Fur",
+    "player_word": "Fire",
+    "outcome": 1,
+    "cost": 22
+  },
+  {
+    "system_word": "Acorn",
+    "player_word": "Fire",
+    "outcome": 0,
+    "cost": 22
+  },
+  {
+    "system_word": "Demolition Site",
+    "best_player_word": "Reforestation",
+    "cost": 70
+  },
+  {
+    "system_word": "Demolition Site",
+    "player_word": "Reforestation",
+    "outcome": 1,
+    "cost": 70
+  },
+  {
+    "system_word": "Crayon",
+    "player_word": "Fire",
+    "outcome": 0,
+    "cost": 22
+  },
+  {
+    "system_word": "Stick",
+    "player_word": "Fire",
+    "outcome": 1,
+    "cost": 22
+  },
+  {
+    "system_word": "Leaf Blower",
+    "player_word": "Gust",
+    "outcome": 1,
+    "cost": 18
+  },
+  {
+    "system_word": "Snowflake",
+    "player_word": "Sunshine",
+    "outcome": 0,
+    "cost": 35
+  },
+  {
+    "system_word": "Puddle",
+    "player_word": "Drought",
+    "outcome": 1,
+    "cost": 24
+  },
+  {
+    "system_word": "Flame Thrower",
+    "player_word": "Fire Extinguisher",
+    "outcome": 0,
+    "cost": 50
+  },
+  {
+    "system_word": "Warzone",
+    "player_word": "Kevlar Vest",
+    "outcome": 1,
+    "cost": 38
+  },
+  {
+    "system_word": "Smoke",
+    "player_word": "Vacuum",
+    "outcome": 1,
+    "cost": 27
+  },
+  {
+    "system_word": "Smoke",
+    "player_word": "Vacuum",
+    "outcome": 0,
+    "cost": 27
+  },
+  {
+    "system_word": "Fighter Jet",
+    "player_word": "Signal Jammer",
+    "outcome": 0,
+    "cost": 40
+  },
+  {
+    "system_word": "Mud",
+    "player_word": "Drought",
+    "outcome": 1,
+    "cost": 24
+  },
+  {
+    "system_word": "Button",
+    "player_word": "Drill",
+    "outcome": 1,
+    "cost": 20
+  },
+  {
+    "system_word": "Axe",
+    "player_word": "Reinforced Steel Door",
+    "outcome": 1,
+    "cost": 42
+  },
+  {
+    "system_word": "Smoke",
+    "player_word": "Vacuum",
+    "outcome": 0,
+    "cost": 27
+  },
+  {
+    "system_word": "Heavy Machinery",
+    "player_word": "Acid",
+    "outcome": 1,
+    "cost": 16
+  },
+  {
+    "system_word": "Spider",
+    "player_word": "Fire",
+    "outcome": 0,
+    "cost": 22
+  },
+  {
+    "system_word": "Leaf Blower",
+    "player_word": "Gust",
+    "outcome": 1,
+    "cost": 18
+  },
+  {
+    "system_word": "Drum",
+    "player_word": "Sonic Boom",
+    "outcome": 0,
+    "cost": 45
+  },
+  {
+    "system_word": "Supervolcano",
+    "player_word": "Reforestation",
+    "outcome": 1,
+    "cost": 70
+  },
+  {
+    "system_word": "Snake",
+    "player_word": "Bear Trap",
+    "outcome": 1,
+    "cost": 32
+  },
+  {
+    "system_word": "Drum",
+    "player_word": "Sonic Boom",
+    "outcome": 1,
+    "cost": 45
+  },
+  {
+    "system_word": "Plastic Bag",
+    "player_word": "Fire",
+    "outcome": 0,
+    "cost": 22
+  },
+  {
+    "system_word": "Balloon",
+    "player_word": "Persistence",
+    "outcome": 1,
+    "cost": 80
+  },
+  {
+    "system_word": "Leaf Blower",
+    "player_word": "Gust",
+    "outcome": 1,
+    "cost": 18
+  },
+  {
+    "system_word": "Power Line",
+    "player_word": "Lightning",
+    "outcome": 0,
+    "cost": 65
+  },
+  {
+    "system_word": "Ice Cube",
+    "player_word": "Fire",
+    "outcome": 1,
+    "cost": 22
+  },
+  {
+    "system_word": "Puddle",
+    "player_word": "Drought",
+    "outcome": 0,
+    "cost": 24
+  },
+  {
+    "system_word": "Mirror",
+    "player_word": "Dynamite",
+    "outcome": 1,
+    "cost": 60
+  },
+  {
+    "system_word": "Spider",
+    "player_word": "Fire",
+    "outcome": 1,
+    "cost": 22
+  },
+  {
+    "system_word": "Power Line",
+    "player_word": "Lightning",
+    "outcome": 1,
+    "cost": 65
+  },
+  {
+    "system_word": "Snowflake",
+    "player_word": "Sunshine",
+    "outcome": 1,
+    "cost": 35
+  },
+  {
+    "system_word": "Evil SuperIntelligent AI",
+    "player_word": "AI Kill Switch",
+    "outcome": 0,
+    "cost": 90
+  },
+  {
+    "system_word": "Fighter Jet",
+    "player_word": "Signal Jammer",
+    "outcome": 0,
+    "cost": 40
+  },
+  {
+    "system_word": "Fur",
+    "player_word": "Fire",
+    "outcome": 1,
+    "cost": 22
+  },
+  {
+    "system_word": "Drum",
+    "player_word": "Sonic Boom",
+    "outcome": 1,
+    "cost": 45
+  },
+  {
+    "system_word": "Helmet",
+    "player_word": "Drill",
+    "outcome": 1,
+    "cost": 20
+  },
+  {
+    "system_word": "Mud",
+    "player_word": "Drought",
+    "outcome": 1,
+    "cost": 24
+  },
+  {
+    "system_word": "Flame Thrower",
+    "player_word": "Fire Extinguisher",
+    "outcome": 1,
+    "cost": 50
+  },
+  {
+    "system_word": "Helicopter",
+    "player_word": "Lightning",
+    "outcome": 1,
+    "cost": 65
+  },
+  {
+    "system_word": "Nest",
+    "player_word": "Fire",
+    "outcome": 0,
+    "cost": 22
+  },
+  {
+    "system_word": "Demolition Site",
+    "player_word": "Reforestation",
+    "outcome": 0,
+    "cost": 70
+  },
+  {
+    "system_word": "Ant",
+    "player_word": "Fire",
+    "outcome": 0,
+    "cost": 22
+  },
+  {
+    "system_word": "Plastic Bag",
+    "player_word": "Fire",
+    "outcome": 0,
+    "cost": 22
+  },
+  {
+    "system_word": "Toothpick",
+    "player_word": "Sandpaper",
+    "outcome": 1,
+    "cost": 8
+  },
+  {
+    "system_word": "Crayon",
+    "player_word": "Fire",
+    "outcome": 0,
+    "cost": 22
+  },
+  {
+    "system_word": "Plastic Bag",
+    "player_word": "Fire",
+    "outcome": 1,
+    "cost": 22
+  },
+  {
+    "system_word": "Evil SuperIntelligent AI",
+    "player_word": "AI Kill Switch",
+    "outcome": 1,
+    "cost": 90
+  },
+  {
+    "system_word": "Tornado Siren",
+    "player_word": "Signal Jammer",
+    "outcome": 0,
+    "cost": 40
+  },
+  {
+    "system_word": "Fighter Jet",
+    "player_word": "Signal Jammer",
+    "outcome": 0,
+    "cost": 40
+  },
+  {
+    "system_word": "Helmet",
+    "player_word": "Drill",
+    "outcome": 0,
+    "cost": 20
+  },
+  {
+    "system_word": "Power Line",
+    "player_word": "Lightning",
+    "outcome": 1,
+    "cost": 65
+  },
+  {
+    "system_word": "Demolition Site",
+    "player_word": "Reforestation",
+    "outcome": 1,
+    "cost": 70
+  },
+  {
+    "system_word": "Squirrel",
+    "player_word": "Bear Trap",
+    "outcome": 1,
+    "cost": 32
+  },
+  {
+    "system_word": "Matchstick",
+    "player_word": "Water",
+    "outcome": 1,
+    "cost": 25
+  },
+  {
+    "system_word": "Heavy Machinery",
+    "player_word": "Acid",
+    "outcome": 1,
+    "cost": 16
+  },
+  {
+    "system_word": "Evil SuperIntelligent AI",
+    "player_word": "AI Kill Switch",
+    "outcome": 1,
+    "cost": 90
+  },
+  {
+    "system_word": "Bucket",
+    "player_word": "Water",
+    "outcome": 1,
+    "cost": 25
+  },
+  {
+    "system_word": "Bucket",
+    "player_word": "Water",
+    "outcome": 1,
+    "cost": 25
+  },
+  {
+    "system_word": "Watchtower",
+    "player_word": "Bulldozer",
+    "outcome": 1,
+    "cost": 42
+  },
+  {
+    "system_word": "Firewood",
+    "player_word": "Water",
+    "outcome": 0,
+    "cost": 25
+  },
+  {
+    "system_word": "Tornado Siren",
+    "player_word": "Signal Jammer",
+    "outcome": 1,
+    "cost": 40
+  },
+  {
+    "system_word": "Bucket",
+    "player_word": "Water",
+    "outcome": 0,
+    "cost": 25
+  },
+  {
+    "system_word": "Power Line",
+    "player_word": "Lightning",
+    "outcome": 1,
+    "cost": 65
+  },
+  {
+    "system_word": "Helicopter",
+    "player_word": "Lightning",
+    "outcome": 0,
+    "cost": 65
+  },
+  {
+    "system_word": "Demolition Site",
+    "player_word": "Reforestation",
+    "outcome": 0,
+    "cost": 70
+  },
+  {
+    "system_word": "Helmet",
+    "player_word": "Drill",
+    "outcome": 1,
+    "cost": 20
+  },
+  {
+    "system_word": "Toothpick",
+    "player_word": "Sandpaper",
+    "outcome": 0,
+    "cost": 8
+  },
+  {
+    "system_word": "Firewood",
+    "player_word": "Water",
+    "outcome": 1,
+    "cost": 25
+  },
+  {
+    "system_word": "Ice Cube",
+    "player_word": "Fire",
+    "outcome": 0,
+    "cost": 22
+  },
+  {
+    "system_word": "Rain",
+    "player_word": "Drought",
+    "outcome": 1,
+    "cost": 24
+  },
+  {
+    "system_word": "Hammer",
+    "player_word": "Vacuum",
+    "outcome": 0,
+    "cost": 27
+  },
+  {
+    "system_word": "Evil SuperIntelligent AI",
+    "player_word": "AI Kill Switch",
+    "outcome": 0,
+    "cost": 90
+  },
+  {
+    "system_word": "Snowflake",
+    "player_word": "Sunshine",
+    "outcome": 1,
+    "cost": 35
+  },
+  {
+    "system_word": "Tornado",
+    "best_player_word": "Drought",
+    "cost": 24
+  },
+  {
+    "system_word": "Earthquake",
+    "best_player_word": "Seismic Dampener",
+    "cost": 60
+  },
+  {
+    "system_word": "Volcano",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Hurricane",
+    "best_player_word": "Drought",
+    "cost": 24
+  },
+  {
+    "system_word": "Ant",
+    "player_word": "Fire",
+    "outcome": 1,
+    "cost": 22
+  },
+  {
+    "system_word": "Ant",
+    "player_word": "Fire",
+    "outcome": 1,
+    "cost": 22
+  },
+  {
+    "system_word": "Avalanche",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Flood",
+    "best_player_word": "Dam",
+    "cost": 35
+  },
+  {
+    "system_word": "Inferno",
+    "best_player_word": "Fire Extinguisher",
+    "cost": 50
+  },
+  {
+    "system_word": "Typhoon",
+    "best_player_word": "Dam",
+    "cost": 35
+  },
+  {
+    "system_word": "Tsunami",
+    "best_player_word": "Dam",
+    "cost": 35
+  },
+  {
+    "system_word": "Sandstorm",
+    "best_player_word": "Rainstorm",
+    "cost": 58
+  },
+  {
+    "system_word": "Blizzard",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Wildfire",
+    "best_player_word": "Rainstorm",
+    "cost": 58
+  },
+  {
+    "system_word": "Meteor",
+    "best_player_word": "Planetary Defense Shield",
+    "cost": 96
+  },
+  {
+    "system_word": "Comet",
+    "best_player_word": "Anti-Virus Nanocloud",
+    "cost": 90
+  },
+  {
+    "system_word": "Solar Flare",
+    "best_player_word": "Planetary Defense Shield",
+    "cost": 96
+  },
+  {
+    "system_word": "Black Hole",
+    "best_player_word": "Singularity Stabilizer",
+    "cost": 97
+  },
+  {
+    "system_word": "Supernova",
+    "best_player_word": "Cataclysm Containment Field",
+    "cost": 92
+  },
+  {
+    "system_word": "Radiation",
+    "best_player_word": "Seismic Dampener",
+    "cost": 60
+  },
+  {
+    "system_word": "Plague",
+    "best_player_word": "Anti-Virus Nanocloud",
+    "cost": 90
+  },
+  {
+    "system_word": "Famine",
+    "best_player_word": "Rainstorm",
+    "cost": 58
+  },
+  {
+    "system_word": "Drought",
+    "best_player_word": "Rainstorm",
+    "cost": 58
+  },
+  {
+    "system_word": "Pestilence",
+    "best_player_word": "Anti-Virus Nanocloud",
+    "cost": 90
+  },
+  {
+    "system_word": "Darkness",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Light",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Gravity",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Time",
+    "best_player_word": "Persistence",
+    "cost": 80
+  },
+  {
+    "system_word": "Space",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Entropy",
+    "best_player_word": "Time",
+    "cost": 100
+  },
+  {
+    "system_word": "Chaos",
+    "best_player_word": "Persistence",
+    "cost": 80
+  },
+  {
+    "system_word": "Order",
+    "best_player_word": "Reality Resynchronizer",
+    "cost": 92
+  },
+  {
+    "system_word": "Innovation",
+    "best_player_word": "Disease",
+    "cost": 50
+  },
+  {
+    "system_word": "Persistence",
+    "best_player_word": "Resilience",
+    "cost": 85
+  },
+  {
+    "system_word": "Resilience",
+    "best_player_word": "Drought",
+    "cost": 24
+  },
+  {
+    "system_word": "Hope",
+    "best_player_word": "Drought",
+    "cost": 24
+  },
+  {
+    "system_word": "Fear",
+    "best_player_word": "Confidence",
+    "cost": 50
+  },
+  {
+    "system_word": "Wisdom",
+    "best_player_word": "Disease",
+    "cost": 50
+  },
+  {
+    "system_word": "Ignorance",
+    "best_player_word": "Therapy",
+    "cost": 48
+  },
+  {
+    "system_word": "Fire",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Water",
+    "best_player_word": "Drought",
+    "cost": 24
+  },
+  {
+    "system_word": "Earth",
+    "best_player_word": "Avalanche",
+    "cost": 72
+  },
+  {
+    "system_word": "Air",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Steel",
+    "best_player_word": "Acid",
+    "cost": 16
+  },
+  {
+    "system_word": "Ice",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Lava",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Ash",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Electricity",
+    "best_player_word": "Lightning",
+    "cost": 65
+  },
+  {
+    "system_word": "Magnetism",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Friction",
+    "best_player_word": "Oil",
+    "cost": 10
+  },
+  {
+    "system_word": "Pressure",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Sound",
+    "best_player_word": "Sonic Boom",
+    "cost": 45
+  },
+  {
+    "system_word": "Silence",
+    "best_player_word": "Sonic Boom",
+    "cost": 45
+  },
+  {
+    "system_word": "Vibration",
+    "best_player_word": "Seismic Dampener",
+    "cost": 60
+  },
+  {
+    "system_word": "Shockwave",
+    "best_player_word": "Seismic Dampener",
+    "cost": 60
+  },
+  {
+    "system_word": "Blast",
+    "best_player_word": "Fire Extinguisher",
+    "cost": 50
+  },
+  {
+    "system_word": "Impact",
+    "best_player_word": "Sandpaper",
+    "cost": 8
+  },
+  {
+    "system_word": "Drill",
+    "best_player_word": "Diamond Cage",
+    "cost": 35
+  },
+  {
+    "system_word": "Anchor",
+    "best_player_word": "Acid",
+    "cost": 16
+  },
+  {
+    "system_word": "Shield",
+    "best_player_word": "Drill",
+    "cost": 20
+  },
+  {
+    "system_word": "Sword",
+    "best_player_word": "Kevlar Vest",
+    "cost": 38
+  },
+  {
+    "system_word": "Arrow",
+    "best_player_word": "Kevlar Vest",
+    "cost": 38
+  },
+  {
+    "system_word": "Cannon",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Laser",
+    "best_player_word": "Absorption",
+    "cost": 52
+  },
+  {
+    "system_word": "Missile",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Gunpowder",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Dynamite",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Acid",
+    "best_player_word": "Neutralizing Agent",
+    "cost": 55
+  },
+  {
+    "system_word": "Venom",
+    "best_player_word": "Neutralizing Agent",
+    "cost": 55
+  },
+  {
+    "system_word": "Poison",
+    "best_player_word": "Neutralizing Agent",
+    "cost": 55
+  },
+  {
+    "system_word": "Toxin",
+    "best_player_word": "Neutralizing Agent",
+    "cost": 55
+  },
+  {
+    "system_word": "Mutation",
+    "best_player_word": "Anti-Virus Nanocloud",
+    "cost": 90
+  },
+  {
+    "system_word": "Nanobots",
+    "best_player_word": "Anti-Virus Nanocloud",
+    "cost": 90
+  },
+  {
+    "system_word": "Virus",
+    "best_player_word": "Anti-Virus Nanocloud",
+    "cost": 90
+  },
+  {
+    "system_word": "Bacteria",
+    "best_player_word": "Kevlar Vest",
+    "cost": 38
+  },
+  {
+    "system_word": "Antivirus",
+    "best_player_word": "Mutation",
+    "cost": 35
+  },
+  {
+    "system_word": "Firewall",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Encryption",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "EMP",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Jam Signal",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Radio Waves",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Infrared",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Ultraviolet",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Gamma Rays",
+    "best_player_word": "Persistence",
+    "cost": 80
+  },
+  {
+    "system_word": "X-Rays",
+    "best_player_word": "Reality Resynchronizer",
+    "cost": 92
+  },
+  {
+    "system_word": "Solar Panel",
+    "best_player_word": "Rainstorm",
+    "cost": 58
+  },
+  {
+    "system_word": "Wind Turbine",
+    "best_player_word": "Gust",
+    "cost": 18
+  },
+  {
+    "system_word": "Hydropower",
+    "best_player_word": "Drought",
+    "cost": 24
+  },
+  {
+    "system_word": "Geothermal",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Nuclear Fusion",
+    "best_player_word": "Freeze",
+    "cost": 55
+  },
+  {
+    "system_word": "Nuclear Fission",
+    "best_player_word": "Neutralizing Agent",
+    "cost": 55
+  },
+  {
+    "system_word": "Fusion Reactor",
+    "best_player_word": "Neutralizing Agent",
+    "cost": 55
+  },
+  {
+    "system_word": "Cryogenics",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Terraforming",
+    "best_player_word": "Earthquake",
+    "cost": 74
+  },
+  {
+    "system_word": "Seismic Dampener",
+    "best_player_word": "Earthquake",
+    "cost": 74
+  },
+  {
+    "system_word": "Shock Absorber",
+    "best_player_word": "Oil",
+    "cost": 10
+  },
+  {
+    "system_word": "Armor Plating",
+    "best_player_word": "Acid",
+    "cost": 16
+  },
+  {
+    "system_word": "Bulletproof Glass",
+    "best_player_word": "Jackhammer",
+    "cost": 38
+  },
+  {
+    "system_word": "Kevlar",
+    "best_player_word": "Acid",
+    "cost": 16
+  },
+  {
+    "system_word": "Exoskeleton",
+    "best_player_word": "Acid",
+    "cost": 16
+  },
+  {
+    "system_word": "Jetpack",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Hovercraft",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Submarine",
+    "best_player_word": "Lightning",
+    "cost": 65
+  },
+  {
+    "system_word": "Battleship",
+    "best_player_word": "Seismic Dampener",
+    "cost": 60
+  },
+  {
+    "system_word": "Drone",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Satellite",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Space Station",
+    "best_player_word": "Antimatter Cannon",
+    "cost": 95
+  },
+  {
+    "system_word": "Colony Ship",
+    "best_player_word": "H-bomb",
+    "cost": 75
+  },
+  {
+    "system_word": "Terraforming Device",
+    "best_player_word": "Anti-Virus Nanocloud",
+    "cost": 90
+  },
+  {
+    "system_word": "Gravity Well",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Reality Resynchronizer",
+    "best_player_word": "Singularity Stabilizer",
+    "cost": 97
+  },
+  {
+    "system_word": "Dimensional Rift",
+    "best_player_word": "Reality Resynchronizer",
+    "cost": 92
+  },
+  {
+    "system_word": "Portal Generator",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Time Machine",
+    "best_player_word": "Time",
+    "cost": 100
+  },
+  {
+    "system_word": "Chrono Bomb",
+    "best_player_word": "Time",
+    "cost": 100
+  },
+  {
+    "system_word": "Mind Control Device",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Emotion Amplifier",
+    "best_player_word": "Therapy",
+    "cost": 48
+  },
+  {
+    "system_word": "Psychic Shield",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Mental Fortress",
+    "best_player_word": "Therapy",
+    "cost": 48
+  },
+  {
+    "system_word": "Dreamcatcher",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Cognitive Virus",
+    "best_player_word": "Anti-Virus Nanocloud",
+    "cost": 90
+  },
+  {
+    "system_word": "Brainwave Disruptor",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Energy Shield",
+    "best_player_word": "Acid",
+    "cost": 16
+  },
+  {
+    "system_word": "Force Field",
+    "best_player_word": "Acid",
+    "cost": 16
+  },
+  {
+    "system_word": "Nanite Swarm",
+    "best_player_word": "Anti-Virus Nanocloud",
+    "cost": 90
+  },
+  {
+    "system_word": "Quantum Computer",
+    "best_player_word": "AI Kill Switch",
+    "cost": 90
+  },
+  {
+    "system_word": "Quantum Lock",
+    "best_player_word": "Time",
+    "cost": 100
+  },
+  {
+    "system_word": "Hologram Projector",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Invisibility Cloak",
+    "best_player_word": "Sandpaper",
+    "cost": 8
+  },
+  {
+    "system_word": "Camouflage Suit",
+    "best_player_word": "Kevlar Vest",
+    "cost": 38
+  },
+  {
+    "system_word": "Antimatter Cannon",
+    "best_player_word": "Singularity Stabilizer",
+    "cost": 97
+  },
+  {
+    "system_word": "Dark Energy Harness",
+    "best_player_word": "Singularity Stabilizer",
+    "cost": 97
+  },
+  {
+    "system_word": "Plasma Sword",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Plasma Rifle",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Graviton Beam",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Magneto Railgun",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Neutrino Detector",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Particle Accelerator",
+    "best_player_word": "Neutralizing Agent",
+    "cost": 55
+  },
+  {
+    "system_word": "Matter Compressor",
+    "best_player_word": "Antimatter Cannon",
+    "cost": 95
+  },
+  {
+    "system_word": "Atomic Blender",
+    "best_player_word": "Neutralizing Agent",
+    "cost": 55
+  },
+  {
+    "system_word": "Molecular Cutter",
+    "best_player_word": "Reinforced Steel Door",
+    "cost": 42
+  },
+  {
+    "system_word": "Subspace Scanner",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Black Matter Condenser",
+    "best_player_word": "Singularity Stabilizer",
+    "cost": 97
+  },
+  {
+    "system_word": "Solar Deflection Array",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Planetary Defense Grid",
+    "best_player_word": "Antimatter Cannon",
+    "cost": 95
+  },
+  {
+    "system_word": "Orbital Strike",
+    "best_player_word": "Planetary Defense Shield",
+    "cost": 96
+  },
+  {
+    "system_word": "Meteor Shield",
+    "best_player_word": "Avalanche",
+    "cost": 72
+  },
+  {
+    "system_word": "Atmospheric Purifier",
+    "best_player_word": "Kevlar Vest",
+    "cost": 38
+  },
+  {
+    "system_word": "Virus Vaccine",
+    "best_player_word": "Anti-Virus Nanocloud",
+    "cost": 90
+  },
+  {
+    "system_word": "Tectonic Stabilizer",
+    "best_player_word": "Earthquake",
+    "cost": 74
+  },
+  {
+    "system_word": "Cryostasis Pod",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Cryogenic Chamber",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Dimensional Anchor",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Soul Trap",
+    "best_player_word": "Therapy",
+    "cost": 48
+  },
+  {
+    "system_word": "Magic Mirror",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Enchanted Blade",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Mystic Scroll",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Arcane Library",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Forbidden Tome",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Ancient Relic",
+    "best_player_word": "Jackhammer",
+    "cost": 38
+  },
+  {
+    "system_word": "Ethereal Chain",
+    "best_player_word": "Neutralizing Agent",
+    "cost": 55
+  },
+  {
+    "system_word": "Ghostly Warden",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Phantom Blade",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Necromantic Staff",
+    "best_player_word": "Seismic Dampener",
+    "cost": 60
+  },
+  {
+    "system_word": "Life Crystal",
+    "best_player_word": "Acid",
+    "cost": 16
+  },
+  {
+    "system_word": "Death Crystal",
+    "best_player_word": "Anti-Virus Nanocloud",
+    "cost": 90
+  },
+  {
+    "system_word": "Chaos Crystal",
+    "best_player_word": "Neutralizing Agent",
+    "cost": 55
+  },
+  {
+    "system_word": "Order Crystal",
+    "best_player_word": "Earthquake",
+    "cost": 74
+  },
+  {
+    "system_word": "Mana Fountain",
+    "best_player_word": "Drought",
+    "cost": 24
+  },
+  {
+    "system_word": "Void Stone",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Soulforge",
+    "best_player_word": "Time",
+    "cost": 100
+  },
+  {
+    "system_word": "Dreamweaver",
+    "best_player_word": "Therapy",
+    "cost": 48
+  },
+  {
+    "system_word": "Nightmare Trap",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Siren Song",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Banshee Scream",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Golem Core",
+    "best_player_word": "Acid",
+    "cost": 16
+  },
+  {
+    "system_word": "Dragon Heart",
+    "best_player_word": "Freeze",
+    "cost": 55
+  },
+  {
+    "system_word": "Phoenix Feather",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Unicorn Horn",
+    "best_player_word": "Bear Trap",
+    "cost": 32
+  },
+  {
+    "system_word": "Kraken Tentacle",
+    "best_player_word": "Freeze",
+    "cost": 55
+  },
+  {
+    "system_word": "Werewolf Claw",
+    "best_player_word": "Persistence",
+    "cost": 80
+  },
+  {
+    "system_word": "Vampire Fang",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Specter Cloak",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Runic Seal",
+    "best_player_word": "Dynamite",
+    "cost": 60
+  },
+  {
+    "system_word": "Druid's Grove",
+    "best_player_word": "Bulldozer",
+    "cost": 42
+  },
+  {
+    "system_word": "Sacred Spring",
+    "best_player_word": "Drought",
+    "cost": 24
+  },
+  {
+    "system_word": "Wishing Well",
+    "best_player_word": "Drought",
+    "cost": 24
+  },
+  {
+    "system_word": "Ancient Altar",
+    "best_player_word": "Bulldozer",
+    "cost": 42
+  },
+  {
+    "system_word": "Magic Barrier",
+    "best_player_word": "Acid",
+    "cost": 16
+  },
+  {
+    "system_word": "Spirit Shield",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Aura Amplifier",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Energy Prism",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Blood Ritual",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Sunstone",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Moonstone",
+    "best_player_word": "Acid",
+    "cost": 16
+  },
+  {
+    "system_word": "Star Fragment",
+    "best_player_word": "Antimatter Cannon",
+    "cost": 95
+  },
+  {
+    "system_word": "Astral Compass",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Celestial Orb",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Comet Shard",
+    "best_player_word": "Planetary Defense Shield",
+    "cost": 96
+  },
+  {
+    "system_word": "Meteorite Chunk",
+    "best_player_word": "Planetary Defense Shield",
+    "cost": 96
+  },
+  {
+    "system_word": "Crystalline Lance",
+    "best_player_word": "Acid",
+    "cost": 16
+  },
+  {
+    "system_word": "Glacial Wall",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Infernal Chain",
+    "best_player_word": "Freeze",
+    "cost": 55
+  },
+  {
+    "system_word": "Zephyr Blade",
+    "best_player_word": "Gust",
+    "cost": 18
+  },
+  {
+    "system_word": "Tidebreaker",
+    "best_player_word": "Dam",
+    "cost": 35
+  },
+  {
+    "system_word": "Flame Warden",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Frostbite Spear",
+    "best_player_word": "Fire Blanket",
+    "cost": 48
+  },
+  {
+    "system_word": "Stormcaller Horn",
+    "best_player_word": "Lightning",
+    "cost": 65
+  },
+  {
+    "system_word": "Tempest Eye",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Tsunami Crown",
+    "best_player_word": "Dam",
+    "cost": 35
+  },
+  {
+    "system_word": "Avalanche Hammer",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Earthsplitter",
+    "best_player_word": "Seismic Dampener",
+    "cost": 60
+  },
+  {
+    "system_word": "Seafloor Crasher",
+    "best_player_word": "Earthquake",
+    "cost": 74
+  },
+  {
+    "system_word": "Thunderstruck",
+    "best_player_word": "Lightning",
+    "cost": 65
+  },
+  {
+    "system_word": "Windhowler",
+    "best_player_word": "Boulder",
+    "cost": 20
+  },
+  {
+    "system_word": "Rockslide",
+    "best_player_word": "Bulldozer",
+    "cost": 42
+  },
+  {
+    "system_word": "Mudslide",
+    "best_player_word": "Reforestation",
+    "cost": 70
+  },
+  {
+    "system_word": "Ashfall",
+    "best_player_word": "Rainstorm",
+    "cost": 58
+  },
+  {
+    "system_word": "Emberstorm",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Furnace Heart",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Furnace Core",
+    "best_player_word": "Freeze",
+    "cost": 55
+  },
+  {
+    "system_word": "Tectonic Rage",
+    "best_player_word": "Seismic Dampener",
+    "cost": 60
+  },
+  {
+    "system_word": "Maelstrom Engine",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Entropy Engine",
+    "best_player_word": "Time",
+    "cost": 100
+  },
+  {
+    "system_word": "Creation Engine",
+    "best_player_word": "AI Kill Switch",
+    "cost": 90
+  },
+  {
+    "system_word": "Plague Spreader",
+    "best_player_word": "Anti-Virus Nanocloud",
+    "cost": 90
+  },
+  {
+    "system_word": "Nanocloud",
+    "best_player_word": "Anti-Virus Nanocloud",
+    "cost": 90
+  },
+  {
+    "system_word": "Nano Reconstruction Field",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Genetic Editor",
+    "best_player_word": "Mutation",
+    "cost": 35
+  },
+  {
+    "system_word": "Synthetic Organism",
+    "best_player_word": "Anti-Virus Nanocloud",
+    "cost": 90
+  },
+  {
+    "system_word": "Cloning Lab",
+    "best_player_word": "Viral Meme",
+    "cost": 58
+  },
+  {
+    "system_word": "AI Overseer",
+    "best_player_word": "AI Kill Switch",
+    "cost": 90
+  },
+  {
+    "system_word": "AI Kill Switch",
+    "best_player_word": "Anti-Virus Nanocloud",
+    "cost": 90
+  },
+  {
+    "system_word": "Cybernetic Enhancer",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Neural Interface",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Mind Upload",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Virtual Reality Prism",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Augmented Reality Lens",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Temporal Lens",
+    "best_player_word": "Time",
+    "cost": 100
+  },
+  {
+    "system_word": "Temporal Distorter",
+    "best_player_word": "Time",
+    "cost": 100
+  },
+  {
+    "system_word": "Parallel Shifter",
+    "best_player_word": "Time",
+    "cost": 100
+  },
+  {
+    "system_word": "Void Walker Boots",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Stasis Field",
+    "best_player_word": "Time",
+    "cost": 100
+  },
+  {
+    "system_word": "Antigravity Boots",
+    "best_player_word": "Reality Resynchronizer",
+    "cost": 92
+  },
+  {
+    "system_word": "Zero Point Field Generator",
+    "best_player_word": "Antimatter Cannon",
+    "cost": 95
+  },
+  {
+    "system_word": "Plasma Mine",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Gravity Trap",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Black Hole Grenade",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Antimatter Charge",
+    "best_player_word": "Singularity Stabilizer",
+    "cost": 97
+  },
+  {
+    "system_word": "Chrono Stabilizer",
+    "best_player_word": "Time",
+    "cost": 100
+  },
+  {
+    "system_word": "Dream Infuser",
+    "best_player_word": "Therapy",
+    "cost": 48
+  },
+  {
+    "system_word": "Soul Extractor",
+    "best_player_word": "Persistence",
+    "cost": 80
+  },
+  {
+    "system_word": "Lifeforce Collector",
+    "best_player_word": "Anti-Virus Nanocloud",
+    "cost": 90
+  },
+  {
+    "system_word": "Energy Siphon",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Mana Absorber",
+    "best_player_word": "Drought",
+    "cost": 24
+  },
+  {
+    "system_word": "Health Injector",
+    "best_player_word": "Disease",
+    "cost": 50
+  },
+  {
+    "system_word": "Bio Regenerator",
+    "best_player_word": "Acid",
+    "cost": 16
+  },
+  {
+    "system_word": "Power Core",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Warp Drive",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Hyperdrive Engine",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Dark Matter Engine",
+    "best_player_word": "Singularity Stabilizer",
+    "cost": 97
+  },
+  {
+    "system_word": "Light Sail",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Solar Sail",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Energy Lance",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Spectral Saber",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Spectral Shield",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Spectral Wall",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Spectral Net",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Energy Cage",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Time Lock",
+    "best_player_word": "Time",
+    "cost": 100
+  },
+  {
+    "system_word": "Nullifier Beam",
+    "best_player_word": "Absorption",
+    "cost": 52
+  },
+  {
+    "system_word": "Oblivion Ray",
+    "best_player_word": "Singularity Stabilizer",
+    "cost": 97
+  },
+  {
+    "system_word": "Genesis Spark",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Seed of Life",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Seed of Destruction",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Bloom of Renewal",
+    "best_player_word": "Drought",
+    "cost": 24
+  },
+  {
+    "system_word": "Corruption Vine",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Iron Root",
+    "best_player_word": "Acid",
+    "cost": 16
+  },
+  {
+    "system_word": "Spirit Vine",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Soul Seed",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Ember Blossom",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Ice Petal",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Storm Lily",
+    "best_player_word": "Drought",
+    "cost": 24
+  },
+  {
+    "system_word": "Poison Ivy",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Venom Root",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Blightflower",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Dawnflower",
+    "best_player_word": "Drought",
+    "cost": 24
+  },
+  {
+    "system_word": "Moon Blossom",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Sunburst Tree",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Starlight Seedling",
+    "best_player_word": "Drought",
+    "cost": 24
+  },
+  {
+    "system_word": "Plasma Bud",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Crystalline Bloom",
+    "best_player_word": "Acid",
+    "cost": 16
+  },
+  {
+    "system_word": "Thunderseed",
+    "best_player_word": "Lightning",
+    "cost": 65
+  },
+  {
+    "system_word": "Shadow Thorn",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Radiant Bloom",
+    "best_player_word": "Drought",
+    "cost": 24
+  },
+  {
+    "system_word": "Glowing Shroom",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Blinding Spore",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Toxic Cloud",
+    "best_player_word": "Neutralizing Agent",
+    "cost": 55
+  },
+  {
+    "system_word": "Lightning Surge",
+    "best_player_word": "Reality Resynchronizer",
+    "cost": 92
+  },
+  {
+    "system_word": "Thunder Pulse",
+    "best_player_word": "Lightning",
+    "cost": 65
+  },
+  {
+    "system_word": "Shock Net",
+    "best_player_word": "Seismic Dampener",
+    "cost": 60
+  },
+  {
+    "system_word": "Ground Quake",
+    "best_player_word": "Seismic Dampener",
+    "cost": 60
+  },
+  {
+    "system_word": "Void Pulse",
+    "best_player_word": "Absorption",
+    "cost": 52
+  },
+  {
+    "system_word": "Nether Rift",
+    "best_player_word": "Reality Resynchronizer",
+    "cost": 92
+  },
+  {
+    "system_word": "Abyssal Maw",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Eclipse Shard",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Shattered Reality",
+    "best_player_word": "Reality Resynchronizer",
+    "cost": 92
+  },
+  {
+    "system_word": "Temporal Collapse",
+    "best_player_word": "Time",
+    "cost": 100
+  },
+  {
+    "system_word": "Memory Erasure",
+    "best_player_word": "Persistence",
+    "cost": 80
+  },
+  {
+    "system_word": "Consciousness Shift",
+    "best_player_word": "Therapy",
+    "cost": 48
+  },
+  {
+    "system_word": "Awakening Device",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Slumber Wave",
+    "best_player_word": "Fire Blanket",
+    "cost": 48
+  },
+  {
+    "system_word": "Spirit Beacon",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Soul Cry",
+    "best_player_word": "Therapy",
+    "cost": 48
+  },
+  {
+    "system_word": "Warden’s Call",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Oracle’s Eye",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Sentinel Core",
+    "best_player_word": "AI Kill Switch",
+    "cost": 90
+  },
+  {
+    "system_word": "Titan Heart",
+    "best_player_word": "Diamond Cage",
+    "cost": 35
+  },
+  {
+    "system_word": "Monolith",
+    "best_player_word": "Drill",
+    "cost": 20
+  },
+  {
+    "system_word": "Obelisk of Time",
+    "best_player_word": "Time",
+    "cost": 100
+  },
+  {
+    "system_word": "Pyramid of Fate",
+    "best_player_word": "Bulldozer",
+    "cost": 42
+  },
+  {
+    "system_word": "Crown of Ages",
+    "best_player_word": "Diamond Cage",
+    "cost": 35
+  },
+  {
+    "system_word": "Amulet of Eternity",
+    "best_player_word": "Time",
+    "cost": 100
+  },
+  {
+    "system_word": "Talisman of Strength",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Gem of Clarity",
+    "best_player_word": "Diamond Cage",
+    "cost": 35
+  },
+  {
+    "system_word": "Blade of Reckoning",
+    "best_player_word": "Kevlar Vest",
+    "cost": 38
+  },
+  {
+    "system_word": "Shield of Ages",
+    "best_player_word": "Acid",
+    "cost": 16
+  },
+  {
+    "system_word": "Armor of Eons",
+    "best_player_word": "Acid",
+    "cost": 16
+  },
+  {
+    "system_word": "Boots of the Horizon",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Staff of Genesis",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Bow of the Stars",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Dagger of Twilight",
+    "best_player_word": "Kevlar Vest",
+    "cost": 38
+  },
+  {
+    "system_word": "Ring of Resonance",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Chalice of Power",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Horn of Valor",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Mirror of Reflections",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Lantern of Souls",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Torch of the Ancients",
+    "best_player_word": "Fire Extinguisher",
+    "cost": 50
+  },
+  {
+    "system_word": "Hammer of Titans",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Cudgel of Dawn",
+    "best_player_word": "Diamond Cage",
+    "cost": 35
+  },
+  {
+    "system_word": "Lance of the Forgotten",
+    "best_player_word": "Reinforced Steel Door",
+    "cost": 42
+  },
+  {
+    "system_word": "Puddle",
+    "player_word": "Drought",
+    "outcome": 0,
+    "cost": 24
+  },
+  {
+    "system_word": "Riot Shield",
+    "player_word": "Molotov Cocktail",
+    "outcome": 1,
+    "cost": 58
+  },
+  {
+    "system_word": "Armor",
+    "best_player_word": "Acid",
+    "cost": 16
+  },
+  {
+    "system_word": "Blade",
+    "best_player_word": "Kevlar Vest",
+    "cost": 38
+  },
+  {
+    "system_word": "Spear",
+    "best_player_word": "Kevlar Vest",
+    "cost": 38
+  },
+  {
+    "system_word": "Bow",
+    "best_player_word": "Kevlar Vest",
+    "cost": 38
+  },
+  {
+    "system_word": "Whirlwind",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Storm",
+    "best_player_word": "Drought",
+    "cost": 24
+  },
+  {
+    "system_word": "Firestorm",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Quicksand",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Erosion",
+    "best_player_word": "Reforestation",
+    "cost": 70
+  },
+  {
+    "system_word": "Landslide",
+    "best_player_word": "Reforestation",
+    "cost": 70
+  },
+  {
+    "system_word": "Fissure",
+    "best_player_word": "Reforestation",
+    "cost": 70
+  },
+  {
+    "system_word": "Vortex",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Gale",
+    "best_player_word": "Gust",
+    "cost": 18
+  },
+  {
+    "system_word": "Updraft",
+    "best_player_word": "Gust",
+    "cost": 18
+  },
+  {
+    "system_word": "Tremor",
+    "best_player_word": "Seismic Dampener",
+    "cost": 60
+  },
+  {
+    "system_word": "Aftershock",
+    "best_player_word": "Seismic Dampener",
+    "cost": 60
+  },
+  {
+    "system_word": "Seismic Wave",
+    "best_player_word": "Seismic Dampener",
+    "cost": 60
+  },
+  {
+    "system_word": "Magma",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Ash Cloud",
+    "best_player_word": "Rainstorm",
+    "cost": 58
+  },
+  {
+    "system_word": "Electric Storm",
+    "best_player_word": "Lightning",
+    "cost": 65
+  },
+  {
+    "system_word": "Bolt",
+    "best_player_word": "Persistence",
+    "cost": 80
+  },
+  {
+    "system_word": "Spark",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Pulse",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Shock",
+    "best_player_word": "Seismic Dampener",
+    "cost": 60
+  },
+  {
+    "system_word": "Crackling Energy",
+    "best_player_word": "Lightning",
+    "cost": 65
+  },
+  {
+    "system_word": "Static Field",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Discharge",
+    "best_player_word": "Kevlar Vest",
+    "cost": 38
+  },
+  {
+    "system_word": "Circuit Break",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Iron Wall",
+    "best_player_word": "Acid",
+    "cost": 16
+  },
+  {
+    "system_word": "Steel Curtain",
+    "best_player_word": "Acid",
+    "cost": 16
+  },
+  {
+    "system_word": "Stonewall",
+    "best_player_word": "Drill",
+    "cost": 20
+  },
+  {
+    "system_word": "Glass Dome",
+    "best_player_word": "Boulder",
+    "cost": 20
+  },
+  {
+    "system_word": "Barrier",
+    "best_player_word": "Drill",
+    "cost": 20
+  },
+  {
+    "system_word": "Fortress",
+    "best_player_word": "Earthquake",
+    "cost": 74
+  },
+  {
+    "system_word": "Bastion",
+    "best_player_word": "Drill",
+    "cost": 20
+  },
+  {
+    "system_word": "Citadel",
+    "best_player_word": "Dynamite",
+    "cost": 60
+  },
+  {
+    "system_word": "Outpost",
+    "best_player_word": "Dynamite",
+    "cost": 60
+  },
+  {
+    "system_word": "Beacon",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Fire Beacon",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Torch",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Flare",
+    "best_player_word": "Fire Extinguisher",
+    "cost": 50
+  },
+  {
+    "system_word": "Signal",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Distress Call",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Emergency Broadcast",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Battalion",
+    "best_player_word": "Molotov Cocktail",
+    "cost": 58
+  },
+  {
+    "system_word": "Squadron",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Fleet",
+    "best_player_word": "Hurricane",
+    "cost": 76
+  },
+  {
+    "system_word": "Warband",
+    "best_player_word": "Molotov Cocktail",
+    "cost": 58
+  },
+  {
+    "system_word": "Army",
+    "best_player_word": "H-bomb",
+    "cost": 75
+  },
+  {
+    "system_word": "Legion",
+    "best_player_word": "Viral Meme",
+    "cost": 58
+  },
+  {
+    "system_word": "Unit",
+    "best_player_word": "Dynamite",
+    "cost": 60
+  },
+  {
+    "system_word": "Task Force",
+    "best_player_word": "Propaganda",
+    "cost": 60
+  },
+  {
+    "system_word": "Vanguard",
+    "best_player_word": "Dynamite",
+    "cost": 60
+  },
+  {
+    "system_word": "Spearhead",
+    "best_player_word": "Kevlar Vest",
+    "cost": 38
+  },
+  {
+    "system_word": "Scout",
+    "best_player_word": "Bear Trap",
+    "cost": 32
+  },
+  {
+    "system_word": "Spy",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Messenger",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Courier",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Ambush",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Trap",
+    "best_player_word": "Bear Trap",
+    "cost": 32
+  },
+  {
+    "system_word": "Snare",
+    "best_player_word": "Jackhammer",
+    "cost": 38
+  },
+  {
+    "system_word": "Net",
+    "best_player_word": "Jackhammer",
+    "cost": 38
+  },
+  {
+    "system_word": "Rope",
+    "best_player_word": "Satellite",
+    "cost": 50
+  },
+  {
+    "system_word": "Cage",
+    "best_player_word": "Drill",
+    "cost": 20
+  },
+  {
+    "system_word": "Explosion",
+    "best_player_word": "Fire Extinguisher",
+    "cost": 50
+  },
+  {
+    "system_word": "Blast Wave",
+    "best_player_word": "Seismic Dampener",
+    "cost": 60
+  },
+  {
+    "system_word": "Fireball",
+    "best_player_word": "Fire Extinguisher",
+    "cost": 50
+  },
+  {
+    "system_word": "Shrapnel",
+    "best_player_word": "Kevlar Vest",
+    "cost": 38
+  },
+  {
+    "system_word": "Debris",
+    "best_player_word": "Bulldozer",
+    "cost": 42
+  },
+  {
+    "system_word": "Falling Rock",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Falling Tree",
+    "best_player_word": "Bulldozer",
+    "cost": 42
+  },
+  {
+    "system_word": "Crush",
+    "best_player_word": "Hydraulic Jack",
+    "cost": 33
+  },
+  {
+    "system_word": "Squeeze",
+    "best_player_word": "Oil",
+    "cost": 10
+  },
+  {
+    "system_word": "Crack",
+    "best_player_word": "Super Glue",
+    "cost": 48
+  },
+  {
+    "system_word": "Snap",
+    "best_player_word": "Diamond Cage",
+    "cost": 35
+  },
+  {
+    "system_word": "Break",
+    "best_player_word": "Reinforced Steel Door",
+    "cost": 42
+  },
+  {
+    "system_word": "Burst",
+    "best_player_word": "Fire Blanket",
+    "cost": 48
+  },
+  {
+    "system_word": "Fragment",
+    "best_player_word": "Super Glue",
+    "cost": 48
+  },
+  {
+    "system_word": "Splinter",
+    "best_player_word": "Super Glue",
+    "cost": 48
+  },
+  {
+    "system_word": "Shard",
+    "best_player_word": "Boulder",
+    "cost": 20
+  },
+  {
+    "system_word": "Splitting Earth",
+    "best_player_word": "Seismic Dampener",
+    "cost": 60
+  },
+  {
+    "system_word": "Fracture",
+    "best_player_word": "Super Glue",
+    "cost": 48
+  },
+  {
+    "system_word": "Acid Rain",
+    "best_player_word": "Neutralizing Agent",
+    "cost": 55
+  },
+  {
+    "system_word": "Corrosion",
+    "best_player_word": "Neutralizing Agent",
+    "cost": 55
+  },
+  {
+    "system_word": "Decay",
+    "best_player_word": "Reforestation",
+    "cost": 70
+  },
+  {
+    "system_word": "Rot",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Sickness",
+    "best_player_word": "Therapy",
+    "cost": 48
+  },
+  {
+    "system_word": "Infection",
+    "best_player_word": "Anti-Virus Nanocloud",
+    "cost": 90
+  },
+  {
+    "system_word": "Quarantine",
+    "best_player_word": "Therapy",
+    "cost": 48
+  },
+  {
+    "system_word": "Hazard",
+    "best_player_word": "Fire Extinguisher",
+    "cost": 50
+  },
+  {
+    "system_word": "Toxic Spill",
+    "best_player_word": "Neutralizing Agent",
+    "cost": 55
+  },
+  {
+    "system_word": "Chemical Reaction",
+    "best_player_word": "Neutralizing Agent",
+    "cost": 55
+  },
+  {
+    "system_word": "Combustion",
+    "best_player_word": "Fire Extinguisher",
+    "cost": 50
+  },
+  {
+    "system_word": "Ignition",
+    "best_player_word": "Fire Extinguisher",
+    "cost": 50
+  },
+  {
+    "system_word": "Overheat",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Boiling Point",
+    "best_player_word": "Freeze",
+    "cost": 55
+  },
+  {
+    "system_word": "Freezing",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Cold Snap",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Ice Shard",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Hailstorm",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Glacier",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Snowstorm",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Frostbite",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Freeze Ray",
+    "best_player_word": "Fire Blanket",
+    "cost": 48
+  },
+  {
+    "system_word": "Mind Fog",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Confusion",
+    "best_player_word": "Therapy",
+    "cost": 48
+  },
+  {
+    "system_word": "Paralysis",
+    "best_player_word": "Therapy",
+    "cost": 48
+  },
+  {
+    "system_word": "Fatigue",
+    "best_player_word": "Vacation",
+    "cost": 20
+  },
+  {
+    "system_word": "Terror",
+    "best_player_word": "Therapy",
+    "cost": 48
+  },
+  {
+    "system_word": "Panic",
+    "best_player_word": "Therapy",
+    "cost": 48
+  },
+  {
+    "system_word": "Distraction",
+    "best_player_word": "Therapy",
+    "cost": 48
+  },
+  {
+    "system_word": "Blindness",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Hallucination",
+    "best_player_word": "Therapy",
+    "cost": 48
+  },
+  {
+    "system_word": "Delirium",
+    "best_player_word": "Therapy",
+    "cost": 48
+  },
+  {
+    "system_word": "Madness",
+    "best_player_word": "Therapy",
+    "cost": 48
+  },
+  {
+    "system_word": "Nightmare",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Dream",
+    "best_player_word": "Reality Resynchronizer",
+    "cost": 92
+  },
+  {
+    "system_word": "Illusion",
+    "best_player_word": "Reality Resynchronizer",
+    "cost": 92
+  },
+  {
+    "system_word": "Mirage",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Phantom",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Shadow",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Ghost",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Spirit",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Poltergeist",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Wraith",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Specter",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Ghoul",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Shade",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Apparition",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Memory",
+    "best_player_word": "Therapy",
+    "cost": 48
+  },
+  {
+    "system_word": "Forgetfulness",
+    "best_player_word": "Therapy",
+    "cost": 48
+  },
+  {
+    "system_word": "Amnesia",
+    "best_player_word": "Therapy",
+    "cost": 48
+  },
+  {
+    "system_word": "Blackout",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Power Cut",
+    "best_player_word": "Satellite",
+    "cost": 50
+  },
+  {
+    "system_word": "Energy Drain",
+    "best_player_word": "Absorption",
+    "cost": 52
+  },
+  {
+    "system_word": "Overload",
+    "best_player_word": "Neutralizing Agent",
+    "cost": 55
+  },
+  {
+    "system_word": "Short Circuit",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "EMP Pulse",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Magnetic Surge",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Radiation Leak",
+    "best_player_word": "Neutralizing Agent",
+    "cost": 55
+  },
+  {
+    "system_word": "Nuclear Fallout",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Meltdown",
+    "best_player_word": "Freeze",
+    "cost": 55
+  },
+  {
+    "system_word": "Collapse",
+    "best_player_word": "Reinforced Steel Door",
+    "cost": 42
+  },
+  {
+    "system_word": "Structural Failure",
+    "best_player_word": "Hydraulic Jack",
+    "cost": 33
+  },
+  {
+    "system_word": "System Crash",
+    "best_player_word": "Anti-Virus Nanocloud",
+    "cost": 90
+  },
+  {
+    "system_word": "Server Overload",
+    "best_player_word": "Satellite",
+    "cost": 50
+  },
+  {
+    "system_word": "Battery Drain",
+    "best_player_word": "Reality Resynchronizer",
+    "cost": 92
+  },
+  {
+    "system_word": "Signal Loss",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Distortion",
+    "best_player_word": "Reality Resynchronizer",
+    "cost": 92
+  },
+  {
+    "system_word": "Wave Interference",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Data Breach",
+    "best_player_word": "Encryption",
+    "cost": 55
+  },
+  {
+    "system_word": "Firewall Breach",
+    "best_player_word": "Anti-Virus Nanocloud",
+    "cost": 90
+  },
+  {
+    "system_word": "Code Corruption",
+    "best_player_word": "Anti-Virus Nanocloud",
+    "cost": 90
+  },
+  {
+    "system_word": "Virus Upload",
+    "best_player_word": "Anti-Virus Nanocloud",
+    "cost": 90
+  },
+  {
+    "system_word": "Trojan Horse",
+    "best_player_word": "Anti-Virus Nanocloud",
+    "cost": 90
+  },
+  {
+    "system_word": "Wormhole",
+    "best_player_word": "Singularity Stabilizer",
+    "cost": 97
+  },
+  {
+    "system_word": "Portal",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Dimensional Tear",
+    "best_player_word": "Reality Resynchronizer",
+    "cost": 92
+  },
+  {
+    "system_word": "Time Rift",
+    "best_player_word": "Time",
+    "cost": 100
+  },
+  {
+    "system_word": "Chrono Break",
+    "best_player_word": "Time",
+    "cost": 100
+  },
+  {
+    "system_word": "Flash Freeze",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Meteor Strike",
+    "best_player_word": "Planetary Defense Shield",
+    "cost": 96
+  },
+  {
+    "system_word": "Comet Impact",
+    "best_player_word": "Planetary Defense Shield",
+    "cost": 96
+  },
+  {
+    "system_word": "Asteroid Shower",
+    "best_player_word": "Planetary Defense Shield",
+    "cost": 96
+  },
+  {
+    "system_word": "Starfall",
+    "best_player_word": "Planetary Defense Shield",
+    "cost": 96
+  },
+  {
+    "system_word": "Skyfire",
+    "best_player_word": "Rainstorm",
+    "cost": 58
+  },
+  {
+    "system_word": "Lunar Eclipse",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Solar Eclipse",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Tidal Wave",
+    "best_player_word": "Dam",
+    "cost": 35
+  },
+  {
+    "system_word": "Seafloor Quake",
+    "best_player_word": "Dam",
+    "cost": 35
+  },
+  {
+    "system_word": "Riptide",
+    "best_player_word": "Dam",
+    "cost": 35
+  },
+  {
+    "system_word": "Undertow",
+    "best_player_word": "Life Raft",
+    "cost": 30
+  },
+  {
+    "system_word": "Maelstrom",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Whirlpool",
+    "best_player_word": "Drought",
+    "cost": 24
+  },
+  {
+    "system_word": "Pressure Crush",
+    "best_player_word": "Hydraulic Jack",
+    "cost": 33
+  },
+  {
+    "system_word": "Deep Freeze",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Armor Shatter",
+    "best_player_word": "Hydraulic Jack",
+    "cost": 33
+  },
+  {
+    "system_word": "Sword Clash",
+    "best_player_word": "Kevlar Vest",
+    "cost": 38
+  },
+  {
+    "system_word": "Blade Break",
+    "best_player_word": "Diamond Cage",
+    "cost": 35
+  },
+  {
+    "system_word": "Shield Bash",
+    "best_player_word": "Drill",
+    "cost": 20
+  },
+  {
+    "system_word": "Spear Throw",
+    "best_player_word": "Kevlar Vest",
+    "cost": 38
+  },
+  {
+    "system_word": "Arrow Rain",
+    "best_player_word": "Reinforced Steel Door",
+    "cost": 42
+  },
+  {
+    "system_word": "Bolt Strike",
+    "best_player_word": "Lightning",
+    "cost": 65
+  },
+  {
+    "system_word": "Laser Beam",
+    "best_player_word": "Persistence",
+    "cost": 80
+  },
+  {
+    "system_word": "Photon Blast",
+    "best_player_word": "Absorption",
+    "cost": 52
+  },
+  {
+    "system_word": "Neutron Shock",
+    "best_player_word": "Absorption",
+    "cost": 52
+  },
+  {
+    "system_word": "Plasma Surge",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Atomic Collapse",
+    "best_player_word": "Singularity Stabilizer",
+    "cost": 97
+  },
+  {
+    "system_word": "Gamma Burst",
+    "best_player_word": "Planetary Defense Shield",
+    "cost": 96
+  },
+  {
+    "system_word": "Fusion Burn",
+    "best_player_word": "Fire Extinguisher",
+    "cost": 50
+  },
+  {
+    "system_word": "Nebula Cloud",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Ion Storm",
+    "best_player_word": "Lightning",
+    "cost": 65
+  },
+  {
+    "system_word": "Electron Pulse",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Quark Spin",
+    "best_player_word": "Neutralizing Agent",
+    "cost": 55
+  },
+  {
+    "system_word": "Antimatter Splash",
+    "best_player_word": "Singularity Stabilizer",
+    "cost": 97
+  },
+  {
+    "system_word": "Dark Energy Wave",
+    "best_player_word": "Singularity Stabilizer",
+    "cost": 97
+  },
+  {
+    "system_word": "Falling Debris",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Meteoric Slam",
+    "best_player_word": "Seismic Dampener",
+    "cost": 60
+  },
+  {
+    "system_word": "Orbital Bombardment",
+    "best_player_word": "Planetary Defense Shield",
+    "cost": 96
+  },
+  {
+    "system_word": "Ground Spike",
+    "best_player_word": "Jackhammer",
+    "cost": 38
+  },
+  {
+    "system_word": "Tectonic Break",
+    "best_player_word": "Seismic Dampener",
+    "cost": 60
+  },
+  {
+    "system_word": "Sinkhole",
+    "best_player_word": "Reforestation",
+    "cost": 70
+  },
+  {
+    "system_word": "Cave-In",
+    "best_player_word": "Hydraulic Jack",
+    "cost": 33
+  },
+  {
+    "system_word": "Mine Collapse",
+    "best_player_word": "Hydraulic Jack",
+    "cost": 33
+  },
+  {
+    "system_word": "Dust Storm",
+    "best_player_word": "Rainstorm",
+    "cost": 58
+  },
+  {
+    "system_word": "Eruption",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Lava Geyser",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Volcanic Crater",
+    "best_player_word": "Lava",
+    "cost": 68
+  },
+  {
+    "system_word": "Skyfire Rain",
+    "best_player_word": "Dam",
+    "cost": 35
+  },
+  {
+    "system_word": "Lightning Barrage",
+    "best_player_word": "Lightning",
+    "cost": 65
+  },
+  {
+    "system_word": "Superstorm",
+    "best_player_word": "Hurricane",
+    "cost": 76
+  },
+  {
+    "system_word": "Solar Wind",
+    "best_player_word": "Satellite",
+    "cost": 50
+  },
+  {
+    "system_word": "Magnetic Storm",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Geomagnetic Pulse",
+    "best_player_word": "Seismic Dampener",
+    "cost": 60
+  },
+  {
+    "system_word": "Hypersonic Boom",
+    "best_player_word": "Seismic Dampener",
+    "cost": 60
+  },
+  {
+    "system_word": "Sonic Blast",
+    "best_player_word": "Seismic Dampener",
+    "cost": 60
+  },
+  {
+    "system_word": "Supersonic Punch",
+    "best_player_word": "Seismic Dampener",
+    "cost": 60
+  },
+  {
+    "system_word": "Whip Crack",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Chain Snap",
+    "best_player_word": "Reinforced Steel Door",
+    "cost": 42
+  },
+  {
+    "system_word": "Rope Burn",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Battering Ram",
+    "best_player_word": "Freeze",
+    "cost": 55
+  },
+  {
+    "system_word": "Catapult Strike",
+    "best_player_word": "Sandpaper",
+    "cost": 8
+  },
+  {
+    "system_word": "Trebuchet Launch",
+    "best_player_word": "Reinforced Steel Door",
+    "cost": 42
+  },
+  {
+    "system_word": "Ballista Shot",
+    "best_player_word": "Kevlar Vest",
+    "cost": 38
+  },
+  {
+    "system_word": "Rock Throw",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Boulder Push",
+    "best_player_word": "Drill",
+    "cost": 20
+  },
+  {
+    "system_word": "Tree Crush",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Log Roll",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Rolling Rock",
+    "best_player_word": "Boulder",
+    "cost": 20
+  },
+  {
+    "system_word": "Floodwall",
+    "best_player_word": "Drill",
+    "cost": 20
+  },
+  {
+    "system_word": "River Surge",
+    "best_player_word": "Drought",
+    "cost": 24
+  },
+  {
+    "system_word": "Oil Spill",
+    "best_player_word": "Absorption",
+    "cost": 52
+  },
+  {
+    "system_word": "Fire Spill",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Fuel Leak",
+    "best_player_word": "Fire Extinguisher",
+    "cost": 50
+  },
+  {
+    "system_word": "Gas Explosion",
+    "best_player_word": "Fire Extinguisher",
+    "cost": 50
+  },
+  {
+    "system_word": "Boiling Oil",
+    "best_player_word": "Fire Extinguisher",
+    "cost": 50
+  },
+  {
+    "system_word": "Searing Heat",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Freezing Winds",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Iceberg",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Permafrost",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Arctic Blast",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Frozen Tundra",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Blizzard Howl",
+    "best_player_word": "Sunshine",
+    "cost": 35
+  },
+  {
+    "system_word": "Creeping Vine",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Snaring Roots",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Tangled Branches",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Forest Trap",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Fallen Tree",
+    "best_player_word": "Bulldozer",
+    "cost": 42
+  },
+  {
+    "system_word": "Overgrowth",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Fog Cloud",
+    "best_player_word": "Gust",
+    "cost": 18
+  },
+  {
+    "system_word": "Mist Wall",
+    "best_player_word": "Gust",
+    "cost": 18
+  },
+  {
+    "system_word": "Smoke Curtain",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Camouflage",
+    "best_player_word": "Oil",
+    "cost": 10
+  },
+  {
+    "system_word": "Silent Movement",
+    "best_player_word": "Signal Jammer",
+    "cost": 40
+  },
+  {
+    "system_word": "Hidden Trap",
+    "best_player_word": "Bear Trap",
+    "cost": 32
+  },
+  {
+    "system_word": "Pressure Plate",
+    "best_player_word": "Hydraulic Jack",
+    "cost": 33
+  },
+  {
+    "system_word": "Tripwire",
+    "best_player_word": "Bulldozer",
+    "cost": 42
+  },
+  {
+    "system_word": "Spiked Pit",
+    "best_player_word": "Bulldozer",
+    "cost": 42
+  },
+  {
+    "system_word": "Poison Dart",
+    "best_player_word": "Neutralizing Agent",
+    "cost": 55
+  },
+  {
+    "system_word": "Blowgun",
+    "best_player_word": "Kevlar Vest",
+    "cost": 38
+  },
+  {
+    "system_word": "Needle Rain",
+    "best_player_word": "Seismic Dampener",
+    "cost": 60
+  },
+  {
+    "system_word": "Crushing Weight",
+    "best_player_word": "Hydraulic Jack",
+    "cost": 33
+  },
+  {
+    "system_word": "Overbearing Gravity",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Heavy Load",
+    "best_player_word": "Hydraulic Jack",
+    "cost": 33
+  },
+  {
+    "system_word": "Pressurized Vault",
+    "best_player_word": "Drill",
+    "cost": 20
+  },
+  {
+    "system_word": "Energy Clamp",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Magnetic Lock",
+    "best_player_word": "Acid",
+    "cost": 16
+  },
+  {
+    "system_word": "Sealed Door",
+    "best_player_word": "Jackhammer",
+    "cost": 38
+  },
+  {
+    "system_word": "Barricaded Wall",
+    "best_player_word": "Jackhammer",
+    "cost": 38
+  },
+  {
+    "system_word": "Concrete Barrier",
+    "best_player_word": "Jackhammer",
+    "cost": 38
+  },
+  {
+    "system_word": "Steel Lock",
+    "best_player_word": "Hydraulic Jack",
+    "cost": 33
+  },
+  {
+    "system_word": "Laser Cutter",
+    "best_player_word": "Satellite",
+    "cost": 50
+  },
+  {
+    "system_word": "Plasma Torch",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Thermal Lance",
+    "best_player_word": "Freeze",
+    "cost": 55
+  },
+  {
+    "system_word": "Drillbit",
+    "best_player_word": "Diamond Cage",
+    "cost": 35
+  },
+  {
+    "system_word": "Sawblade",
+    "best_player_word": "Oil",
+    "cost": 10
+  },
+  {
+    "system_word": "Buzzsaw",
+    "best_player_word": "Diamond Cage",
+    "cost": 35
+  },
+  {
+    "system_word": "Shrapnel Burst",
+    "best_player_word": "Kevlar Vest",
+    "cost": 38
+  },
+  {
+    "system_word": "Fragment Bomb",
+    "best_player_word": "Seismic Dampener",
+    "cost": 60
+  },
+  {
+    "system_word": "Nail Bomb",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Scattershot",
+    "best_player_word": "Reality Resynchronizer",
+    "cost": 92
+  },
+  {
+    "system_word": "Fragmented Glass",
+    "best_player_word": "Super Glue",
+    "cost": 48
+  },
+  {
+    "system_word": "Broken Chain",
+    "best_player_word": "Super Glue",
+    "cost": 48
+  },
+  {
+    "system_word": "Frayed Rope",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Splintered Shield",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Cracked Armor",
+    "best_player_word": "Super Glue",
+    "cost": 48
+  },
+  {
+    "system_word": "Bent Sword",
+    "best_player_word": "Oil",
+    "cost": 10
+  },
+  {
+    "system_word": "Dulled Blade",
+    "best_player_word": "Sandpaper",
+    "cost": 8
+  },
+  {
+    "system_word": "Snapped Arrow",
+    "best_player_word": "Kevlar Vest",
+    "cost": 38
+  },
+  {
+    "system_word": "Twisted Spear",
+    "best_player_word": "Kevlar Vest",
+    "cost": 38
+  },
+  {
+    "system_word": "Burned Bow",
+    "best_player_word": "Water",
+    "cost": 25
+  },
+  {
+    "system_word": "Melted Helmet",
+    "best_player_word": "Freeze",
+    "cost": 55
+  },
+  {
+    "system_word": "Crushed Gauntlet",
+    "best_player_word": "Hydraulic Jack",
+    "cost": 33
+  },
+  {
+    "system_word": "Busted Greaves",
+    "best_player_word": "Oil",
+    "cost": 10
+  },
+  {
+    "system_word": "Torn Cloak",
+    "best_player_word": "Satellite",
+    "cost": 50
+  },
+  {
+    "system_word": "Shattered Mirror",
+    "best_player_word": "Super Glue",
+    "cost": 48
+  },
+  {
+    "system_word": "Split Staff",
+    "best_player_word": "Drill",
+    "cost": 20
+  },
+  {
+    "system_word": "Fractured Amulet",
+    "best_player_word": "Super Glue",
+    "cost": 48
+  },
+  {
+    "system_word": "Damaged Ring",
+    "best_player_word": "Super Glue",
+    "cost": 48
+  },
+  {
+    "system_word": "Crumbled Pillar",
+    "best_player_word": "Boulder",
+    "cost": 20
+  },
+  {
+    "system_word": "Toppled Tower",
+    "best_player_word": "Bulldozer",
+    "cost": 42
+  },
+  {
+    "system_word": "Ruined Wall",
+    "best_player_word": "Bulldozer",
+    "cost": 42
+  },
+  {
+    "system_word": "Shattered Stone",
+    "best_player_word": "Super Glue",
+    "cost": 48
+  },
+  {
+    "system_word": "Cracked Earth",
+    "best_player_word": "Rainstorm",
+    "cost": 58
+  },
+  {
+    "system_word": "Brittle Ice",
+    "best_player_word": "Steam",
+    "cost": 15
+  },
+  {
+    "system_word": "Splitting Rock",
+    "best_player_word": "Jackhammer",
+    "cost": 38
+  },
+  {
+    "system_word": "Eroded Cliff",
+    "best_player_word": "Boulder",
+    "cost": 20
+  },
+  {
+    "system_word": "Collapsed Bridge",
+    "best_player_word": "Hydraulic Jack",
+    "cost": 33
+  },
+  {
+    "system_word": "Broken Dam",
+    "best_player_word": "Dam",
+    "cost": 35
+  },
+  {
+    "system_word": "Shattered Barrier",
+    "best_player_word": "Super Glue",
+    "cost": 48
+  },
+  {
+    "system_word": "Torn Curtain",
+    "best_player_word": "Vacuum",
+    "cost": 27
+  },
+  {
+    "system_word": "Frayed Net",
+    "best_player_word": "Super Glue",
+    "cost": 48
+  },
+  {
+    "system_word": "Leaking Vessel",
+    "best_player_word": "Life Raft",
+    "cost": 30
+  },
+  {
+    "system_word": "Sinking Ship",
+    "best_player_word": "Life Raft",
+    "cost": 30
+  },
+  {
+    "system_word": "Capsized Boat",
+    "best_player_word": "Life Raft",
+    "cost": 30
+  },
+  {
+    "system_word": "Wrecked Raft",
+    "best_player_word": "Life Raft",
+    "cost": 30
+  },
+  {
+    "system_word": "Swamped Canoe",
+    "best_player_word": "Life Raft",
+    "cost": 30
+  },
+  {
+    "system_word": "Falling Tree",
+    "best_player_word": "Bulldozer",
+    "cost": 42
+  },
+  {
+    "system_word": "Snapping Branch",
+    "best_player_word": "Bear Trap",
+    "cost": 32
+  },
+  {
+    "system_word": "Tumbling Boulder",
+    "best_player_word": "Hydraulic Jack",
+    "cost": 33
+  },
+  {
+    "system_word": "Crumbling Wall",
+    "best_player_word": "Bulldozer",
+    "cost": 42
+  },
+  {
+    "system_word": "Sliding Mud",
+    "best_player_word": "Freeze",
+    "cost": 55
+  },
+  {
+    "system_word": "Spreading Fire",
+    "best_player_word": "Fire Extinguisher",
+    "cost": 50
+  },
+  {
+    "system_word": "Creeping Lava",
+    "best_player_word": "Freeze",
+    "cost": 55
+  },
+  {
+    "system_word": "Melting Ice",
+    "best_player_word": "Fire",
+    "cost": 22
+  },
+  {
+    "system_word": "Rising Waters",
+    "best_player_word": "Dam",
+    "cost": 35
+  },
+  {
+    "system_word": "Suffocating Smoke",
+    "best_player_word": "Vacuum",
+    "cost": 27
   }
 ]
